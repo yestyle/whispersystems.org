@@ -21,13 +21,13 @@ However, we must be brave enough to attempt to  understand his description of th
 
 Imagine, as Marx expects of us in the passage above, that an "internet" commodity could speak. What would it say?
 
-XXXXXX
+XXXXX
 
 Anyone who has examined the business models of big players on the internet — the g, the f, the t, for example — understands what precisely they are selling, and to whom they sell. Who are the customers of these massive institutions? Not the users, as we might expect. It is in fact the advertisers who enter the marketplace to purchase these products. *What* are the products, then?
 
 #### The product is you.
 
-The evidence of our use of things, our conversations with people, our interests ... these to not attribute value to some other thing, this metadata is itself the commodity. Proof of your attention, in the form of a pageview. Proof of your relation, in the form of a follow or friending or like. Proof of your association, in the form of your conversation history.
+The evidence of our use of things, our conversations with people, our interests ... these do not attribute value to some other thing, this metadata is itself the commodity. Proof of your attention, in the form of a pageview. Proof of your relation, in the form of a follow or friending or like. Proof of your association, in the form of your conversation history.
 
 How this value is used, and whether or not it is "harmless" or "sensitive", "transgressive" or "appropriate", is certainly of interest to those who purchase or purloin the evidence of our attention — the NSA for example, but also advertisers and profilers. But to us, the interrelating commodities, it is the exchange itself that matters most. 
 
