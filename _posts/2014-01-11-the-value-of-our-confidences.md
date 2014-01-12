@@ -43,7 +43,7 @@ Because privacy occurs on the level of exchange (and not the level of use), it i
 
 - Bruce Fink, *The Lacanian Subject: Between Language and Jouissance*
 
-We had one of those "what does meaning and truth even mean" conversations as a group last night. It began as a game, but quickly unwound into a deeply philosophical dialogue. It began with this question: "would you spend a minute writing everything you thought on a piece of paper, then showing it to someone?" This thought experiment reveals two dillemmas for me: 
+We had one of those "what does meaning and truth even mean" conversations as a group last night. It began as a game, but quickly unwound into a deeply philosophical dialogue. It began with this question: "would you spend a minute writing everything you thought on a piece of paper, then show it to someone?" This thought experiment reveals two dillemmas for me: 
 
 1. Would you write the same thing onto the paper given different readers?
 
@@ -63,8 +63,12 @@ What cannot be said reveals as much about the world as what is spoken. Unspeakab
 
 Privacy software shifts the influence of these apparatuses to a different sphere, and in doing so reorganizes and redefines what is unspeakable. How? By enabling us to, as the minute-of-consiousness-on-paper exeriment shows, change what is written by changing who has read.
 
-By redefining the unspeakable, we can describe the world in new ways. What we do not say, even in private illuminates the greater structural social forms of control and power. When we are no longer afraid of who might be listening in, we understand more fully what we are absolutely afraid to confide.
+By redefining the unspeakable, we can describe the world in new ways. What we do not say, even in private, illuminates the greater structural social forms of control and power. When we are no longer afraid of who might be listening in, we understand more fully what we are absolutely afraid to confide.
 
 The only way to tease out this fear, and locate the bounds of our capacity to describe the world, is to simplify the process individuals use communicate in privacy. So, it is precisely by changing the environment in which people are allowed to confide, that we broaden the scope of what could exist. This is the motivation behind my work for Open Whisper Systems. To discover what unspeakable things remain in the presence of the real confidence of privacy.
 
 [Tyler Reinhard](https://twitter.com/abolishme)
+
+Kauai, Hawaii
+
+11 January 2014
