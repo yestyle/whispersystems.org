@@ -3,7 +3,7 @@ title: "Blog >> The value of our confidences"
 layout: post
 ---
 
-*A guest post by [Tyler](https://twitter.com/abolishme). Winter Break of Code, Day Six*
+*A guest post by [Tyler](https://twitter.com/abolishme). Winter Break of Code, Day Five*
 
 <img src="/blog/images/wboc-tyler-jump.png" />
 
