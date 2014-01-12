@@ -11,7 +11,7 @@ layout: post
 
 > If commodities could speak, they would say this: our use-value may interest men \[sic\], but it does not belong to us as objects. What does belong to us as objects, however, is our value. Our own intercourse as commodities proves it. We relate to each other merely as exchange-values. 
 
-- Marx, *Capital: A Critique of Political Economy, Vol 1*.
+-- Marx, *Capital: A Critique of Political Economy, Vol 1*.
 
 #### Thus spake the commodity
 
@@ -41,7 +41,7 @@ Because privacy occurs on the level of exchange (and not the level of use), it i
 
 > What cannot be said in language is not part of its reality; it does not exist, strictly speaking. In Lacan’s terminology, existence is a product of language: language brings things into existence (makes them part of human reality), things which had no existence prior to being ciphered, symbolized, or put into words.
 
-- Bruce Fink, *The Lacanian Subject: Between Language and Jouissance*
+-- Bruce Fink, *The Lacanian Subject: Between Language and Jouissance*
 
 We had one of those "what does meaning and truth even mean" conversations as a group last night. It began as a game, but quickly unwound into a deeply philosophical dialogue. It began with this question: "would you spend a minute writing everything you thought on a piece of paper, then show it to someone?" This thought experiment reveals two dillemmas for me: 
 
