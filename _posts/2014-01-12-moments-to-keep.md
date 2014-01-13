@@ -13,9 +13,9 @@ falling into beaches of fine sand and fun waves. The nights spiced with moxie's
 tasty cocktails and long deep conversations about the meaning of life, the 
 internet and everything.
 
-<img src="/blog/images/wboc-meskio-mountains.png" />
+<img src="/blog/images/wboc-meskio-mountains.jpg" />
 
-XXX
+XXXXX
 
 It's interesting to have in the same room designers, web developers, android 
 developers. Everybody work on different things and have different perspective of 
@@ -23,7 +23,7 @@ the project. To listen the conversations about privacy preserving protocols, the
 sensations that colors transmit, how to place information on a web page. I'm 
 learning a lot from the people at the WBoC.
 
-<img src="/blog/images/wboc-meskio-working.png" />
+<img src="/blog/images/wboc-meskio-working.jpg" />
 
 For this week I've being working on Zones, migrating it to OpenStreetMap, and 
 fixing AT&T mms problems on TextSecure.
