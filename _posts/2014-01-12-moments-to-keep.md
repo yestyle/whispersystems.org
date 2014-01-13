@@ -3,14 +3,14 @@ title: "Blog >> Moments to keep"
 layout: post
 ---
 
-*A guest post by [meskio](http://meskio.net/). Winter Break of Code, Day Seven*
+*A guest post by [meskio](http://meskio.net/). Winter Break of Code, Day Six*
 
 A lot of great memories will stay with me after this intense week. The house 
 surrounded by palm trees, people with computers in every corner: laying down a 
 sofa, chatting on the balcony, sitting down on the carpet. The surf and hiking 
 breaks on this astonishing Kauai's landscape, sharp mountains covered by forests 
 falling into beaches of fine sand and fun waves. The nights spiced with moxie's 
-testy cocktails and long deep conversations about the meaning of life, the 
+tasty cocktails and long deep conversations about the meaning of life, the 
 internet and everything.
 
 <img src="/blog/images/wboc-meskio-mountains.png" />
@@ -40,7 +40,7 @@ The AT&T problem is being frustrating, expending days on trying random things to
 find out where the problem comes from. I think I'm starting to understand how 
 mms works on AT&T, but I'm still not sure if I have a solution to that problem.
 
-Even though I didn't finish (jet) my main objectives for the week, I'm pretty 
+Even though I didn't finish (yet) my main objectives for the week, I'm pretty 
 happy of the week. I have learn about android, OSM and I can now surf one out of 
 20 waves I try.
 
