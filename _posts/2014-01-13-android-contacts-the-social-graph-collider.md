@@ -5,6 +5,15 @@ layout: post
 
 *A guest post by [Rhodey](https://twitter.com/notrhodey). Winter Break of Code, Day Seven*
 
+<img src="/blog/images/wboc-rhodey-surfn.jpg" />
+
+Spring Break of Code 2013 I cut open my foot and hand while surfing, both wounds
+easily warranted stitches. Winter Break of Code 2014 I banged the top of my foot
+surfing over some coral, the cuts were sealed within minutes. Spring Break of
+Code 2013 I struggled with the Android SDK, while Winter Break of Code 2014 I
+caught myself taking a few too many short-cuts. On day zero nothing is easy, but
+over time you improve, spilling a little less blood every time.  
+
 #### A Hint of Secure Sync
 
 Early this Fall I started work on a new Open Whisper Systems project which at
@@ -76,7 +85,15 @@ Bringing the subject back to Open Whisper Systems, we could decorate the
 Android contacts app to identify contacts with registered TextSecure or
 RedPhone compliant clients ([woot! CyanogenMod](https://whispersystems.org/blog/cyanogen-integration/))
 and provide a small button or something to invite those who are without
-clients. The situation with Android's [Calendar Provider](https://developer.android.com/guide/topics/providers/calendar-provider.html)
+clients. All of this is possible, but none of it would be responsible.  
+
+If Twitter and Open Whisper Systems were to integrate their apps with the
+Android contacts app, any app with *READ_CONTACTS* permission would have
+access to the map of OWS users to Twitter handles. Add Facebook into the
+loop and you have legal names associated with Twitter handles associated with
+the phone numbers of OWS users.
+  
+The situation with Android's [Calendar Provider](https://developer.android.com/guide/topics/providers/calendar-provider.html)
 is very similar and I think we're missing out on some cool things there
 too.  
 
@@ -85,7 +102,7 @@ too.
 At first glance Android's lack of access control policy seems like a
 win for open access and thus a win for users, but the data being
 shared with other apps is already available to the user, **in fact it
-is the user**. Open Access often falls victim to the same abuses as
+is the user**. *Open Access* often falls victim to the same abuses as
 *Network Neutrality*, don't be fooled, the Android Contacts Provider
 is wack.
 
