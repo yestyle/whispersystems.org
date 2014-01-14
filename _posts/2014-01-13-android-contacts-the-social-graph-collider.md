@@ -14,6 +14,8 @@ Code 2013 I struggled with the Android SDK, while Winter Break of Code 2014 I
 caught myself taking a few too many short-cuts. On day zero nothing is easy, but
 over time you improve, spilling a little less blood every time.  
 
+XXXXX
+
 #### A Hint of Secure Sync
 
 Early this Fall I started work on a new Open Whisper Systems project which at
