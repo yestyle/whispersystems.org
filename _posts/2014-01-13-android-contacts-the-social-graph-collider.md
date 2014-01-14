@@ -102,9 +102,10 @@ too.
 At first glance Android's lack of access control policy seems like a
 win for open access and thus a win for users, but the data being
 shared with other apps is already available to the user, **in fact it
-is the user**. *Open Access* often falls victim to the same abuses as
-*Network Neutrality*, don't be fooled, the Android Contacts Provider
-is wack.
+is the user**. Unfortunately *Open Access*, much like *Network
+Neutrality* is one of these phrases that can be thrown behind a misguided
+agenda to trip up an unfamiliar, unsuspecting userbase. Don't be fooled,
+the Android Contacts Provider is wack.
 
 [Rhodey Orbits](https://twitter.com/notrhodey)
 
