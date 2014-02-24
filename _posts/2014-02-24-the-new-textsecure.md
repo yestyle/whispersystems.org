@@ -87,4 +87,4 @@ tracker.  As with any major new release, there will be bugs, so please help us f
 
 In the mean time, get started with the new TextSecure for Android, [download it for free](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)!
 
--- [Moxie Marlinspike](https://twitter.com/moxie), 24 December, 2014
+-- [Moxie Marlinspike](https://twitter.com/moxie), 24 February, 2014
