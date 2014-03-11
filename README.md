@@ -12,5 +12,6 @@ Installing:
 $ gem install json    # optional if using ruby 1.9 or higher
 $ gem install jekyll
 $ gem install jekyll-assets
+$ gem install jekyll-sass
 $ jekyll serve
 ```
