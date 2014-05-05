@@ -15,7 +15,7 @@ XXXXX
 For regular two party conversations, the TextSecure protocol is designed to provide
 [advanced forward secrecy](/blog/advanced-ratcheting) and [deniability](/blog/simplifying-otr-deniability) that
 functions smoothly in [asynchronous messaging](/blog/asynchronous-security) environments.  For group conversations,
-we'd like to provide the same properties, and we'd naturally like the protocol to be remain consistent with asynchronous
+we'd like to provide the same properties, and we'd naturally like the protocol to remain consistent with asynchronous
 messaging.
 
 An additionally interesting property would be *transcript consistency*: the assurance that all members of a conversation
@@ -27,7 +27,7 @@ group conversations.
 
 ## The mpOTR Effort
 
-Several years ago, Ian Goldberg et al published
+Several years ago, Ian Goldberg et al. published
 [Multi-party Off-the-Record Messaging](http://www.cypherpunks.ca/~iang/pubs/mpotr.pdf), a paper describing a multi-party
 variant of the popular [Off The Record](https://en.wikipedia.org/wiki/Off-the-Record_Messaging) messaging protocol.  Since OTR
 is very popular for synchronous messaging, mpOTR has been at the center of discussions around secure group chat.
@@ -81,15 +81,15 @@ As currently outlined, mpOTR has a few problems for an app like TextSecure:
 3. **No In-Session Forward Secrecy**.  This is a primary feature of two party OTR, so it's surprising not to find it here.      
 4. **Consistency Surprise**. The transcript consistency mechanism in mpOTR offers a strange user experience, even in synchronous
    environments.  Only at the very end of a session, at the moment the user is leaving the chat, are they notified whether the
-   conversation was "consistent" or not.  It's not clear what a user would do with the knowledge that after a potentially hours
-   long conversation, something someone said somewhere during that conversation was seen inconsistently.
+   conversation was "consistent" or not.  It's not clear what a user would do with the knowledge that, after a potentially
+   hours-long conversation, something someone said somewhere during that conversation was seen inconsistently.
 5. **Complexity**.  From an implementation perspective, the protocol has a lot of moving parts and potential race conditions
    that could be difficult to get correct in all cases.
 
 ## The TextSecure Group Protocol
 
-We wanted a zero-round-trip asynchronous oriented protocol with low complexity.  The nice thing about the existing
-two party TextSecure protocol is that, when treated as a platform, it provides a simple fire-and-forget messaging framework.
+We wanted a zero-round-trip asynchronous-oriented protocol with low complexity.  The nice thing about the existing
+two-party TextSecure protocol is that, when treated as a platform, it provides a simple fire-and-forget messaging framework.
 Since setting up sessions is fully asynchronous, it's easy to send a message to any destination at any time, whether you
 have an existing session or not.
 
