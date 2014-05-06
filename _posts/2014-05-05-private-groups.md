@@ -3,7 +3,7 @@ title: "Blog >> Private Group Messaging"
 layout: post
 ---
 
-One of the major features we introduced in the [TextSecure v2](/blog/the-new-textseure/) release was private group chat.
+One of the major features we introduced in the [TextSecure v2](/blog/the-new-textsecure/) release was private group chat.
 We believe that group chat is an important feature for encrypted communications projects, so we wanted
 to try to summarize some of the existing work in this area, as well as how TextSecure's group chat protocol
 functions.
