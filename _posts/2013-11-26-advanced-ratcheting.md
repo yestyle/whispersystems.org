@@ -101,7 +101,7 @@ has less than perfect forward secrecy properties but nice future secrecy propert
 
 We wanted a ratchet that combines the best of both worlds: the optimal *forward* secrecy that a hash iteration ratchet like 
 SCIMP provides, as well as the the nice *future* secrecy properties that a DH ratchet like OTR provides, with as little 
-of the negatives of both as possible.  The inimitable [Trevor Perrin](https://github.com/trevp__) did most of the heavy 
+of the negatives of both as possible.  The inimitable [Trevor Perrin](https://github.com/trevp) did most of the heavy 
 lifting for the primary innovations in combining the two.
 
 First, remember that the OTR message format looks roughly like this:
