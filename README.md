@@ -1,5 +1,7 @@
 # Open WhisperSystems Website
 
+[![Build Status](https://travis-ci.org/WhisperSystems/whispersystems.org.svg?branch=master)](https://travis-ci.org/WhisperSystems/whispersystems.org)
+
 This is the static Open WhisperSystems website located at [https://www.whispersystems.org](https://www.whispersystems.org).
 
 ## Building
