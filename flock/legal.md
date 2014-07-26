@@ -123,7 +123,7 @@ and associated Privacy Policy.
 ## 1. ACCOUNTS & FEES
 
 You must register with Flock Sync to use the service. Flock Sync currently offers a 30-day free trial
-account and a fixed-term, fee-bearing account [Paid Account].
+account and a fixed-term, fee-bearing account \[Paid Account\].
 
 If you sign up for a Paid Account, you agree to pay the fixed subscription fee for the service.  
 
