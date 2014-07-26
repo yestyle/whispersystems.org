@@ -2,7 +2,7 @@ before_install:
   - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
 script:
-  - bundle exec jekyll build --config _config.yml,_config_travis.yml --drafts
+  - bundle exec jekyll build --drafts
   - bundle exec htmlproof ./_site
 
 language: ruby
