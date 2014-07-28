@@ -16,7 +16,7 @@ Someone on the IRC told me there will be a hackathon of Whisper Systems not that
 opportunity to get my hands on Android development and try to do something useful. So there I was in Zurich, after three 
 hours of travel, sleeping on a couch that a friend of a friend has lent me, anxious to hack with the Whisper Systems hackers.
 
-<img src="/blog/images/alpine_sign.jpg" class="nice" />
+<img src="/blog/images/alpine_sign.jpg" class="nice" alt="A sign reads: Open Whisper Systems Alphine Hackathon 11-13 October 2013"/>
 
 Colab is a great place for hackathons with a great sound system (when you manage to make it work), tables with electrical 
 plugs everywhere and comfortable sofas to change your place when you are tired of the table. But the most important of 
@@ -26,7 +26,7 @@ We've been 6 people on the hackathon: Christine and Frederic hacking on the iOS 
 me learning while coding for the Android version of TextSecure and Moxie trying to have something done on the server side 
 while we all ask him questions.
 
-<img src="/blog/images/alpine_action.jpg" class="nice" />
+<img src="/blog/images/alpine_action.jpg" class="nice" alt="Whisper systems hackers in action."/>
 
 Kashif and Desiree couldn't stay for the whole weekend, but they were full of energy and pretty productive. Kashif wrote 
 some lines about the weekend:
@@ -40,9 +40,9 @@ Christine took care of the organization of the event, welcoming us, providing fo
 When Frederic was not concentrated behind his screen he was taking pictures of the event. And in the breaks Moxie amazed us with 
 his stories.
 
-<img src="/blog/images/alpine_anon.jpg" class="nice" />
+<img src="/blog/images/alpine_anon.jpg" class="nice" alt="Frederic, ever-elusive"/>
 
-<img src="/blog/images/alpine_rocket.jpg" class="nice" />
+<img src="/blog/images/alpine_rocket.jpg" class="nice" alt="Corbett rocking the NASA logo laptop sticker." />
 
 Time passes fast when you are focused on something. I have the feeling that the weekend was really short and that I didn't have 
 time to accomplish much. But I have few commits merged on the main repository and I learned a lot. I'm glad I went to the 

@@ -5,7 +5,7 @@ layout: post
 
 *A guest post by [Tyler](https://twitter.com/abolishme). Winter Break of Code, Day Five*
 
-<img src="/blog/images/wboc-tyler-jump.png" />
+<img src="/blog/images/wboc-tyler-jump.png" alt="Jumping off the pier at Hanalei Bay" />
 
 ### Understanding digital privacy under capitalism
 
@@ -55,7 +55,7 @@ The representation of ideas is the description of their reality. While what we d
 
 The way we "user" commodities exchange the evidence of our *real lives* — in direct messaging, in sharing photos and videos, in "liking" certain particularities — is proof of our value. Our internet personas relate to each other solely in this form of exchange. That is, relative to one another, in a parallax constellation of moving objects. Our "social network" as it were.
 
-<img src="/blog/images/wboc-tyler-jumped.png" />
+<img src="/blog/images/wboc-tyler-jumped.png" alt="Action shot, mid-jump off the pier." />
 
 #### The unspeakable ideas which remain
 

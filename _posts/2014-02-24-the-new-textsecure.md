@@ -30,7 +30,7 @@ experience that takes encryption entirely out of the user's way.  A user simply 
 end to end, every time. Unlike other IM services, there is no distinction between "private" chats and "normal" chats.
 Private is normal.
 
-<img src="/blog/images/textsecure2-conversation.png" class="nice"/>
+<img src="/blog/images/textsecure2-conversation.png" class="nice" alt="Screenshot of a TextSecure conversation over push messaging"/>
 
 ## Private Group Chat
 
@@ -42,7 +42,7 @@ In keeping with our efforts to develop the most privacy preserving protocols pos
 [server](https://github.com/whispersystems/TextSecure-Server/) does not have access
 to group metadata such as lists of group members, the group title, or the group avatar icon.
 
-<img src="/blog/images/textsecure2-group.png" class="nice"/>
+<img src="/blog/images/textsecure2-group.png" class="nice" alt="Screenshot of creating a group chat TextSecure"/>
 
 ## An iMessage Experience
 
@@ -54,7 +54,7 @@ Like iMessage, TextSecure uses a color scheme to indicate which transport a mess
 is unavailable, messages can fall back to the SMS transport, and secure sessions can transparently migrate back and forth
 between the two transports.
 
-<img src="/blog/images/textsecure2-imessage.png" class="nice"/>
+<img src="/blog/images/textsecure2-imessage.png" class="nice" alt="Screenshot of TextSecure conversation over SMS and push messaging" />
 
 ## A WhatsApp Experience
 
@@ -62,13 +62,13 @@ Alternately, users can configure TextSecure to function similar to WhatsApp, whe
 over the data channel.  In this configuration, communication is restricted exclusively to secure communication with other
 TextSecure users.
 
-<img src="/blog/images/textsecure2-whatsapp.png" class="nice"/>
+<img src="/blog/images/textsecure2-whatsapp.png" class="nice" alt="Screenshot of TextSecure settings for SMS and push transports" />
 
 ## A Visual Refresh
 
 We've also done a visual refresh of the entire app, adopting a more modern look and a new icon.
 
-<img src="/blog/images/textsecure2-conversation-list.png" class="nice"/>
+<img src="/blog/images/textsecure2-conversation-list.png" class="nice" alt="Screenshot of redesigned TextSecure conversation list" />
 
 ## Connectivity Across Networks
 

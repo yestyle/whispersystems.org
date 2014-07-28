@@ -6,7 +6,7 @@ layout: post
 *A guest post by [Tyler](https://twitter.com/abolishme). Spring Break Of Code, Day Five*
 
 
-<img src="/blog/images/feet.png" class="nice" />
+<img src="/blog/images/feet.png" class="nice" alt="Bare feet in the sand" />
 
 I know very well that each and every crisis of modernity is concentrating, concatenating, and seating more deeply into 
 everyday life. I know the struggles of the world's unseen and unheard are being subsumed -- appropriated -- under and 
@@ -93,7 +93,7 @@ Photoshop mockup of TextSecure's interface. Here's how to do it:
 6. Install the free [xScope mirror app](https://itunes.apple.com/app/xscope-mirror/id488819289) on your iOS device, and launch it. 
 7. On the iOS device with the xScope mirror, just select your computer and allow the connection when prompted in OS X. From there you can choose to view the screen (to compare windows), the clipboard, the area around your cursor, or the Photoshop document itself. This is especially convenient because it is otherwise impossible to preview a pixel-for-pixel mockup at 100% on most non-retina laptops, because the retina display on the iPhone has more vertical pixels than most displays.
 
-<img src="/blog/images/waves.png" class="nice" />
+<img src="/blog/images/waves.png" class="nice" alt="Surf break at Honolua bay" />
 
 *Tyler Reinhard* also writes [http://abolish.me](http://abolish.me), a clearing house for thoughts on the design of systems and things, and 
 tweets [@abolishme](https://twitter.com/abolishme).

@@ -10,7 +10,7 @@ outgoing message with that public key.
 
 XXXXX
 
-<img src="/blog/images/encrypt-pgp.png" class="nice"/>
+<img src="/blog/images/encrypt-pgp.png" class="nice" alt="PGP encryption" />
 
 While this works, it means that every time anyone sends a message to a given recipient, that message is encrypted 
 with the recipient's *same* public key.  Over and over again.  
@@ -42,7 +42,7 @@ If an application running on iOS wishes to receive messages while it's in the ba
 mechanism is to use Apple Push Notifications.  Once a push notification is delivered, the user will be presented with a
 familiar prompt:
 
-<img src="/blog/images/newmessage-scaled.jpg" class="nice"/>
+<img src="/blog/images/newmessage-scaled.jpg" class="nice" alt="An Apple Push Notification from TextSecure on iOS" />
 
 But on iOS, the actual app still hasn't received anything at this point.  Only once a user *physically taps* the prompt 
 or otherwise opens the app does the app itself finally receive the message.

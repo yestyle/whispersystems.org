@@ -24,7 +24,7 @@ in Maui, my idea was something along the lines of [GeoFencing](http://en.wikiped
 
 I arrived at our beach house in Maui around 4:00PM and was almost immediately forced into work on my GeoFencing application.
 
-<img src="/blog/images/instantinjury.jpg" class="nice"/>
+<img src="/blog/images/instantinjury.jpg" class="nice" alt="An injured foot wrapped in a t-shirt." />
 *Amateur surfing at low tide.*
 
 With my right foot and left hand out of commission there wasn't much (anything) to do other than familiarize myself with the 
@@ -38,7 +38,7 @@ the [Google Maps Android V2 API](https://developers.google.com/maps/documentatio
 was to define environments as "trusted" or "hostile" and have client phones react accordingly. For example, a phone inside a 
 police station may wipe its call and message history, and then, using its microphone, begin espionage.
 
-<img src="/blog/images/hammockfence.jpg" class="nice" />
+<img src="/blog/images/hammockfence.jpg" class="nice" alt="Demo from hammock of geofencing on Android with sunset int he background." />
 *Relaxing inside the (presumably) trusted hammock polygon.*
 
 It took me awhile to discover [Action Bar Sherlock](http://actionbarsherlock.com/), and awhile more to switch out my hacked 

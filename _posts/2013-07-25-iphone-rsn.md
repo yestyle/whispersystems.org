@@ -3,7 +3,7 @@ layout: post
 title: "Blog >> Open Whisper Systems is coming to iPhone!"
 ---
 
-<img src="/blog/images/redphone-ios-soon.png" class="nice" />
+<img src="/blog/images/redphone-ios-soon.png" class="nice" alt="A mockup of the WhisperSystems logo on an iPhone." />
 
 XXXXX
 

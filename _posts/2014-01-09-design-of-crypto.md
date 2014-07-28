@@ -7,7 +7,7 @@ layout: post
 
 We are at the half way point of Winter Break of Code. We have two homes near the beach shared by 12 people. 10 of us are working on the apps & website and 2 are leading up delicious dinner efforts. We've spent time on the beach, in the ocean, in the mountains, and of course working. Concepts for future start ups and tactics about self publishing books are brewing, and conversations are lined with politics and activism. Work sessions are focussed on making cryptography usable in existing Andriod apps and soon to be released iPhone apps. 
 
-<img src="/blog/images/meghana-wboc-working.jpg" class="nice" />
+<img src="/blog/images/meghana-wboc-working.jpg" class="nice" alt="Working in the living room" />
 
 XXXXX
 
@@ -17,11 +17,11 @@ I'm new to concepts of cryptography, using and designing for privacy tools. I ap
 
 Below are a few screenshots of what we'll be implementing for the website. 
 
-<img src="/blog/images/meghana-wboc-screens.png" class="nice" />
+<img src="/blog/images/meghana-wboc-screens.png" class="nice" alt="Screenshot of wireframs for the new website" />
 
 The rest of the week will entail: a product photoshoot, quick brand & logo refresh and integrating the design elements into the new web site design. And of course to enjoy this beautiful scene. 
 
-<img src="/blog/images/meghana-wboc-beach.jpg" class="nice" />
+<img src="/blog/images/meghana-wboc-beach.jpg" class="nice" alt="View across Hanalei bay from the beach." />
 
 [Meghana](https://twitter.com/mkhandekar)
 

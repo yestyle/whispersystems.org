@@ -18,7 +18,7 @@ XXXXX
 
 ## The Precedent
 
-<img class="nice" src="/blog/images/sboc-goodbye.jpg" />
+<img class="nice" src="/blog/images/sboc-goodbye.jpg" alt="Group shot from Spring Break of Code." />
 
 Earlier this year, we hosted the Open Whisper Systems [Spring Break Of Code](https://whispersystems.org/blog/spring-break-of-code-lineup/) in Maui.  It vastly exceeded the expectations of the organizers, and was an amazing week that connected a group with 
 a great skill and interest mix, launched exciting new projects, and moved old ones lightyears forward.  We encourage you to 

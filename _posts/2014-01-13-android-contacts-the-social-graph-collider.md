@@ -5,7 +5,7 @@ layout: post
 
 *A guest post by [Rhodey](https://twitter.com/notrhodey). Winter Break of Code, Day Seven*
 
-<img src="/blog/images/wboc-rhodey-surfn.jpg" />
+<img src="/blog/images/wboc-rhodey-surfn.jpg" alt="Rhodey surfing" />
 
 Spring Break of Code 2013 I cut open my foot and hand while surfing, both wounds
 easily warranted stitches. Winter Break of Code 2014 I banged the top of my foot
@@ -38,7 +38,7 @@ Android Contacts Provider, The Social Graph Collider.
 
 #### The Social Graph Collider
 
-<img src="http://developer.android.com/images/providers/contacts_structure.png" />
+<img src="http://developer.android.com/images/providers/contacts_structure.png" alt="Android developer documentation"/>
 
 >  The three tables are commonly referred to by the names of their contract classes. The classes define constants for content URIs, column names, and column values used by the tables:  
 > - ContactsContract.Contacts table

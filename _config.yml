@@ -8,6 +8,7 @@ exclude:
   - Makefile
   - README.md
   - vendor
+  - Rakefile
 permalink: /blog/:title/
 sass:
     style:  expanded  # nested|expanded|compact|compressed

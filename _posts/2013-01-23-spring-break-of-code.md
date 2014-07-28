@@ -8,7 +8,7 @@ Maui for folks who like software development, security, and the beach.  We've re
 the west coast of Maui for everyone to stay in, and will pay for your airfare.  While there, you can split your 
 time between island living and working on an Open Whisper Systems related project that you propose.
 
-<img class="nice" src="/blog/images/maui.png" />
+<img class="nice" src="/blog/images/maui.png" alt="View of the beach at Puamana, island of Maui." />
 
 XXXXX
 

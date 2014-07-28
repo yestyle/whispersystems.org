@@ -14,7 +14,7 @@ was too dedicated to her work at the EFF to take the time off, or because my
 birthday happened to fall on this week, but for one reason or another, the
 universe smiled, and here I am.
 
-<img src="/blog/images/lilia-wboc-pier.jpg" class="nice" />
+<img src="/blog/images/lilia-wboc-pier.jpg" class="nice" alt="The pier at Hanalei Bay, Island of Kauai" />
 
 XXXXX
 
@@ -28,7 +28,7 @@ whispersystems.org repo and happily collected my 0.05BTC from the
 WhisperSystems [Bithub](https://www.github.com/whispersystems/bithub) instance
 in return.
 
-<img src="/blog/images/lilia-wboc-diabolo.png" class="nice" />
+<img src="/blog/images/lilia-wboc-diabolo.png" class="nice" alt="A laptop, headset, and diabolo." />
 
 After lunch I started roughing out the new website url and page structure, as
 well as doing some refactoring of existing content into partials and converting
@@ -40,12 +40,12 @@ group-selfies
 overlooking Hanalei bay, we headed back to our beautiful beach house for a epic
 feast of homemade sushi!
 
-<img src="/blog/images/lilia-wboc-sushi.png" class="nice" />
+<img src="/blog/images/lilia-wboc-sushi.png" class="nice" alt="Homemade sushi dinner" />
 
 There wasn't any cake, but it didn't matter, because I really couldn't have
 asked for a nicer day.
 
-<img src="/blog/images/lilia-wboc-hanalei.png" class="nice" />
+<img src="/blog/images/lilia-wboc-hanalei.png" class="nice" alt="View from the hilltop overlooking Hanalei" />
 
 [lilia](https://twitter.com/liliakai)
 

@@ -44,13 +44,13 @@ the edge of the bed, two laptops and three Android phones¹ piled on top of and 
 crash of surf was drafting in on sticky air through an open window above my face. I opened my eyes. Knots of lime-coloured vines
  hung from a tamarind tree with dark bean pods of fruit half a meter long. 
 
-<img src="/blog/images/tamarind.jpg" class="nice" />
+<img src="/blog/images/tamarind.jpg" class="nice" alt="View of the trees through the bedroom window." />
 
 *Qu'est-que fuck? How did I get to Yavin IV?*  I blinked, expecting the familiar snowy silence of Prenzlauer Berg to 
 replace the acerbic green foliage, the clockwork clacking of the U-Bahn across the raised tracks to replace the steady 
 sound of waves...
 
-<img src="/blog/images/eberswalderstrasse-prenzlauerberg-hinterof.jpg" class="nice" />
+<img src="/blog/images/eberswalderstrasse-prenzlauerberg-hinterof.jpg" class="nice" alt="Interior of the train station in Prenzlauer Berg"/>
 
 *Nope. Still on Yavin IV.*
 
@@ -68,7 +68,7 @@ doesn't matter because I had to let Moxie off the hook this time, due to the pai
 Though, while waiting for the others to arrive, Christine, Moxie, and I did get a chance to to test out the small surf in 
 our front yard.
 
-<img src="/blog/images/surfsup.jpg" class="nice"/>
+<img src="/blog/images/surfsup.jpg" class="nice" alt="Two surfers at the beach" />
 
 I haven't had to write any Java yet, and, tragically, my watercolour portait 
 of [James Arthur Gosling](http://www.novosti.rs/upload/images/2011/03/3003j/james-gosling-java.jpg) was confiscated at U.S. 
@@ -81,7 +81,7 @@ cryptologists is greatly appreciated. I also rooted my newly-acquired (for [OONI
 development, testing, and reading [arxiv](http://arxiv.org/) papers) Android Jelly Bean tablet, and finally ate the taco and 
 tapatio-coated mango I'd been craving in Berlin.
 
-<img src="/blog/images/paddlehard.jpg" class="nice"/>
+<img src="/blog/images/paddlehard.jpg" class="nice" alt="Paddling to catch a wave" />
 
 [isis](https://blog.patternsinthevoid.net) [agora](https://github.com/isislovecruft) [lovecruft](https://twitter.com/isislovecruft)
 

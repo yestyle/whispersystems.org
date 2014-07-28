@@ -76,7 +76,7 @@ automatically connect to one of the switches in its region.  The problem came wi
 DNS-based GSLB, the regions were defined by the locations that our DNS provider had servers.  For most providers, including 
 Amazon Route 53, that ends up being pretty coarse. Users of AWS services should be familiar with this map:
 
-<img class="nice" src="/blog/images/awsmap.png" />
+<img class="nice" src="/blog/images/awsmap.png" alt="Map of Amazon's AWS data centers" />
 
 These are Amazon's AWS data centers, and by extension the regions that can be defined using Route 53's Latency Based Routing. 
 
@@ -108,7 +108,7 @@ almost always the closest switch under the least load.  Clients in South Africa 
 will connect to the switches in ZA, while clients in the UK connecting to the same list of IP addresses will end up connecting to 
 switches in the UK.
 
-<img class="nice" src="/blog/images/multiconnect.png" />
+<img class="nice" src="/blog/images/multiconnect.png" alt="A device initiaites connections to multiple servers, accepting the first to complete." />
 
 Knowing which DNS GSLB region to include a switch's IP address in is easy: just bring up the switch, do the DNS resolution from that 
 switch, and see which region's response gets returned.  Add that switch's IP address to that region's response, and it's online.

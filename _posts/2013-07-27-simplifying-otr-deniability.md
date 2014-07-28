@@ -26,7 +26,7 @@ PGP signed message can prove exactly who wrote it to anyone else.
 
 Let's see how this works.  A simplified version of the initial OTR key exchange looks like this:
 
-<img src="/blog/images/otr-current.png" class="nice"/>
+<img src="/blog/images/otr-current.png" class="nice" alt="Simplified diagram of an OTR handshake" />
 
 Each participant has a long-term identity key (A and B) that they use to sign an ephemeral key (a and b), which they exchange 
 and use to [calculate a shared secret](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange).  In reality, this 
@@ -93,11 +93,11 @@ messages from a sender is still just the set of people who've actually received 
 The inimitable [Trevor Perrin](http://trevp.net/) turned us on to a trick that we can use to greatly simplify and improve
 OTR's deniability property.  All it takes is modifying the initial key exchange from this:
 
-<img src="/blog/images/otr-current.png" class="nice"/>
+<img src="/blog/images/otr-current.png" class="nice" alt="Simplified diagram of an OTR handshake"/>
 
 To this:
 
-<img src="/blog/images/otr-simplified.png" class="nice"/>
+<img src="/blog/images/otr-simplified.png" class="nice" alt="Three way Diffie-Hellman exchange"/>
 
 This replaces two DSA signatures and one Diffie-Hellman exchange with three Diffie-Hellman exchanges.  Each participant still
 has a long-term identity key (A and B) and an ephemeral key (a and b).  However, instead of signing the ephemeral keys, 

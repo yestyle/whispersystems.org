@@ -35,7 +35,7 @@ we call a "three step ratchet."
    key that Alice advertised, and also advertises his own next key.
 1. Alice will use the advertised and acknowledged key the next time she sends a message.
 
-<img src="/blog/images/threestepratchet.png" class="nice" />
+<img src="/blog/images/threestepratchet.png" class="nice" alt="Three-step ratchet"/>
 	
 Note that, until Bob has acknowledged Alice's next key, she can't use it.  If Alice needs to send multiple messages
 to Bob before he replies, Alice will need to keep using her current key and advertising the same next key.
@@ -68,7 +68,7 @@ Each message key is derived as an iterative hash of the last message key used.
 1. As soon as Alice sends a message to Bob, she hashes her encryption key to get her next encryption key.
 1. Alice immediately destroys her encryption key and replaces it with her next encryption key.
 
-<img src="/blog/images/scimp_ratchet.png" class="nice" />
+<img src="/blog/images/scimp_ratchet.png" class="nice" alt="SCIMP ratchet" />
 
 It's clear that an asynchronous messaging app like TextSecure could benefit from an immediate ratchet.  Even with long running
 sessions, there would never be *any* outstanding key material available for compromise.  However, a protocol like SCIMP has some
@@ -95,7 +95,7 @@ A ratcheting protocol is largely about reducing the impacts of a key compromise.
 has *excellent* forward secrecy properties but poor future secrecy properties, while a DH ratchet protocol like OTR
 has less than perfect forward secrecy properties but nice future secrecy properties:
 
-<img src="/blog/images/compromise_window.png" class="nice"/>
+<img src="/blog/images/compromise_window.png" class="nice" alt="Window of Compromise"/>
    
 ## The TextSecure Ratchet
 
@@ -135,7 +135,7 @@ This transforms the "three step" DH ratchet into a "two step" DH ratchet:
    destroy `A1` and generate `A2` when sending her next message.
    
    
-<img src="/blog/images/twostep_ratchet.png" class="nice" />
+<img src="/blog/images/twostep_ratchet.png" class="nice" alt="Two-step ratchet" />
 	
 This is a best possible case DH ratchet, and it also greatly simplifies the message format, which is now simply:
 

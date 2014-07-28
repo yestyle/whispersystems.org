@@ -31,7 +31,7 @@ requiring them to modify their work flow at all.
 
 Here's how an encrypted conversation looks:
 
-<img src="/blog/images/cyanogenmod-screenshot.png"/>
+<img src="/blog/images/cyanogenmod-screenshot.png" alt="Screenshot of an encrypted conversation on Cyanogen" />
 
 There's no visible difference. Nothing at all changes for the user, and the entire process is completely transparent.
 The user doesn't have to initiate a key exchange and wait for a round trip to complete, or know that the recipient is

@@ -5,7 +5,7 @@ layout: post
 
 *A guest post by [Jake](https://twitter.com/clpwn). Winter Break of Code, Day One*
 
-<img src="/blog/images/jake-wboc-pier.jpg" class="nice" />
+<img src="/blog/images/jake-wboc-pier.jpg" class="nice" alt="The pier at Hanalei Bay, island of Kauai" />
 
 The [Winter Break of Code](/blog/winter-break-of-code), being closely linked by name to the season of Winter, began with a calm trickle of ex{hausted,cited} people carrying laptops and cell phone collections after a parade of delays and weather issues. Off the plane after a pitch black descent, the humid fresh smell distinct to this place along with my feet landing on soil was a good hint that we were indeed on an island and this was actually happening. It was very welcome.
 
@@ -21,19 +21,19 @@ For now, there are a couple of improvements that will organize the look of TextS
 
 ## Iconography
 
-<img src="/blog/images/jake-wboc-ts-icon.png" class="nice" />
+<img src="/blog/images/jake-wboc-ts-icon.png" class="nice" alt="The new TextSecure icon" />
 
 Behold, a potential new icon for TextSecure for Android.
 
 ## Contacts
 
-<img src="/blog/images/jake-wboc-ts-contactslist.png" class="nice" />
+<img src="/blog/images/jake-wboc-ts-contactslist.png" class="nice" alt="Screenshot of a redesigned TextSecure contact list" />
 
 A quick teaser for the new contacts list, big pixel squares not included.
 
 ## Conversation
 
-<img src="/blog/images/jake-wboc-ts-conversation.png" class="nice" />
+<img src="/blog/images/jake-wboc-ts-conversation.png" class="nice" alt="Screenshot of a redesigned TextSecure conversation." />
 
 A cleaner design for all of your meaningful conversations.
 

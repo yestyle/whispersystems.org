@@ -37,7 +37,7 @@ data includes:
 The call quality user feedback dialog displays an overall quality rating and a small number of specific quality issues 
 that will change periodically.
 
-<img src="/blog/images/call-quality-metrics.png" class="nice" />
+<img src="/blog/images/call-quality-metrics.png" class="nice" alt="Screenshot of thw RedPhone call quality feedback dialog."/>
 
 We wanted to ensure that the anonymized call quality data you send us is never visible to a third party.  We encrypt the 
 JSON-encoded data as it streams to the local disk during the call.  That encrypted data is uploaded to a 

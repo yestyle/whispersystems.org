@@ -95,7 +95,7 @@ size you prefer, the Open WhisperSystems website is always looking good!
 **Tyler Reinhard** ([@abolishme](https://twitter.com/abolishme)) Tyler is a [workflow publisher](http://abolish.me), 
 designer, front-end web developer, and [social theorist](https://twitter.com/mask_mag) living in Brooklyn, NY. He's been 
 involved with Whisper Systems since the original beta, and is currently working on the iOS interface for a new implementation 
-of Open WhisperSystems secure communication software. Tyler is also the co-founder of [Mask Magazine](http://maskmagazine.com), 
+of Open WhisperSystems secure communication software. Tyler is also the co-founder of [Mask Magazine](http://www.maskmagazine.com),
 a style magazine for antagonist youth.
 
 <p style="clear: both;"/>

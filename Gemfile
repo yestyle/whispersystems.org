@@ -6,5 +6,6 @@ gem 'jekyll-assets'
 gem 'jekyll-sass'
 
 group :test do
+  gem 'rake'
   gem 'html-proofer'
 end

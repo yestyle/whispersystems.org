@@ -103,18 +103,18 @@ delivery path.
 
 Unencrypted messaging would look like this:
 
-<img src="/blog/images/groups.png" class="nice"/>
+<img src="/blog/images/groups.png" class="nice" alt="Data flow for unencrypted messages. A client sends one message to the server." />
 
 Compared to increased overhead on the sending path for encrypted messaging:
 
-<img src="/blog/images/groups-pairwise.png" class="nice"/>
+<img src="/blog/images/groups-pairwise.png" class="nice" alt="Data flow for encrypted messages. A client sends one message per recipient to the server." />
 
 For short text messages, the impact is pretty minimal in today's world, even for large groups.  However, there's an optimization
 we can make for longer messages and media.  The sending client generates an ephemeral symmetric key *K*, encrypts the message
 with *K* (C = E<sub>K</sub>(P)), and then transmits a *single* copy of the ciphertext (C) along with the pairwise encryptions
 of the plaintext hash and the small key *K*:
 
-<img src="/blog/images/groups-pairwise-optimize.png" class="nice"/>
+<img src="/blog/images/groups-pairwise-optimize.png" class="nice" alt="Optimized data flow. Client sends one message and three encrypted keys." />
 
 An *even further* optimization is if clients generate and transmit an ephemeral signing key pair along with *K*.  This allows
 the clients to use *K* for several messages over a defined period by hash-ratcheting *K* and including a signature in the
@@ -122,7 +122,7 @@ transmitted ciphertext.  This would reduce transmission overhead for larger grou
 provide that optimization.  For those messages, the transmission overhead would come all the way back around to the original
 picture:
 
-<img src="/blog/images/groups.png" class="nice"/>
+<img src="/blog/images/groups.png" class="nice" alt="Further optimized data flow. A client sends just one encrypted message to the server."/>
 
 We believe these optimizations can minimize the overhead of pairwise group messages to acceptable levels, while providing full
 forward secrecy, deniability, and an asynchronous orientation.
@@ -158,9 +158,9 @@ about that process later.
 The result of all this is a pretty straightforward user experience.  Anyone can create a group, name it, give it an avatar icon,
 add members, and then everyone can chat together with a normal asynchronous experience.
 
-<img src="/blog/images/groups-create.png" class="nice"/>
+<img src="/blog/images/groups-create.png" class="nice" alt="Screenshot of group creation user interface in TextSecure" />
 
-<img src="/blog/images/groups-conversation.png" class="nice" />
+<img src="/blog/images/groups-conversation.png" class="nice" alt="Screenshot of a group conversation in TextSecure" />
 
 
 -- [Moxie Marlinspike](https://twitter.com/moxie), 5 May, 2014
