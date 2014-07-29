@@ -153,40 +153,47 @@ article img {
 
 #telephone {
   background-color: #696969;
-  text-align: right;
-  background-image: url(<%= asset_path "header/telephone.png" %>);
+  background-image: url(<%= asset_path "header/header.png" %>);
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
   background-size: auto 100%;   /* cover */
-  background-position: center;
+  background-position: right;
   height: 480px;
+  padding-top: 160px;
+  box-sizing: border-box;
 }
 #telephone .text {
   margin-top: 0;  /* if this is not here, messes up bar size above. */
-  padding-top: 160px;
-  text-align: right;
   margin: 0 auto;
 }
 #telephone .tagline1 {
-  padding: 0 20px 0 0;
+  padding: 0 0px 0 70px;
   margin: 0;
   margin-top: 30px;
   color: white;
   font-size: 48px;
   font-family: 'BitterRegular', serif;
+  padding-top: 20px;
 }
 #telephone .tagline2 {
-  padding: 0 20px 0 0;
-  margin: 0;
-  margin-top: 10px;
+  padding: 0 0px 0 70px;
+  margin: 10px 0;
   color: #eee;
   font-size: 22px;
   font-family: 'OpenSansLight', Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
 }
 #telephone .tagline2 strong {
   font-weight: normal;
   font-family: 'OpenSansSemibold', Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  #telephone .darken {
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px #000;
+  }
 }
 
 .solutions {
