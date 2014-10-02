@@ -4,6 +4,7 @@
 
 body {
   font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+  background-color: #171717;
 }
 
 #wrap { }
@@ -31,6 +32,7 @@ article img {
  * General  Styles
  ********************/
 
+.hidden { display: none; }
 .clearfix { clear: both; }
 .light { font-family: 'OpenSansLight', Helvetica, Arial, sans-serif; }
 .red { color: #be4a4a; }
@@ -219,6 +221,7 @@ article img {
   max-width: 760px;
 }
 
+#unregister .arrow,
 #about .arrow,
 #blog .arrow {
   float: left;
@@ -227,6 +230,7 @@ article img {
   background: url(<%= asset_path "body/black_down_arrow.png" %>) no-repeat;
 }
 
+#unregister h2,
 #about h2,
 #blog #title h2 {
   margin: 0px;
@@ -362,7 +366,6 @@ ul.social-buttons li{
     margin-right: 10px;
 }
 
-
 #main {
   clear: both;
   background-image: url(<%= asset_path "body/black_down_arrow.png" %>);
@@ -381,6 +384,7 @@ ul.social-buttons li{
   font-weight: normal;
   font-family: 'BitterRegular', serif;
 }
+#unregister h3,
 #main article h3 {
   color: #555;
   text-align: center;
@@ -747,10 +751,95 @@ i.icon.cell {
   }
 }
 
+#unregister {
+  padding-bottom: 5em;
+}
+@media screen and (min-width: 750px) {
+  #unregister .container.thin {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #unregister .info {
+    width: 49%;
+    float: left;
+    margin-right: 3em;
+  }
+  #unregister .form {
+    float: left;
+  }
+}
 
+#step1, #step2 {
+  text-align: center;
+  margin: 1em 0 2em;
+}
 
+#unregister .narrow {
+  box-sizing: border-box;
+  margin: 0 auto 5px;
+  width: 275px;
+  max-width: 100%;
+}
 
+#step1 fieldset,
+#step2 fieldset {
+  border: none;
+  padding: 0;
+}
 
+#code,
+#number {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 100%;
+}
 
+#number.success {
+  background-color: #ccffcc;
+}
 
+#regionCode {
+  font-size: .7em;
+  width: 100%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
 
+#request-voice,
+#request-sms {
+  box-sizing: border-box;
+}
+
+#request-sms {
+  width: 57%;
+  float: right;
+}
+
+#request-voice {
+  width: 40%;
+  float: left;
+}
+
+#verify-code {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#error,
+#success {
+  color: white;
+  font-weight: bold;
+  padding: 0.5em;
+  text-align: center;
+}
+#error   { background-color: #f44336; }
+#error:before {
+  content: '\26a0';
+  padding-right: 0.5em;
+}
+#success {
+  margin-top: 1em;
+  background-color: #0f9d58;
+}
