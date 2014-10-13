@@ -4,10 +4,19 @@
 
 body {
   font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
-  background-color: #171717;
 }
 
-#wrap { }
+html,body { height: 100%; }
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -196px;
+}
+.push, footer {
+  height: 196px;
+}
 
 #container {
   background-color: #fff; 
@@ -483,7 +492,6 @@ ul.features li a.active {
     margin-left: 50px;
   }
 }
-
 
 #bottom {
   padding-top: 50px;
