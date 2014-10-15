@@ -8,6 +8,10 @@
       if (number) {
         textsecure.server.requestVerificationVoice(number).catch(displayError);
         $('#step2').slideDown();
+        $('#request-sms, #request-voice').prop('disabled', 'disabled');
+        setTimeout(function() {
+          $('#request-sms, #request-voice').removeAttr('disabled');
+        }, 10000);
       }
     });
 
@@ -16,6 +20,10 @@
       if (number) {
         textsecure.server.requestVerificationSMS(number).catch(displayError);
         $('#step2').slideDown();
+        $('#request-sms, #request-voice').prop('disabled', 'disabled');
+        setTimeout(function() {
+          $('#request-sms, #request-voice').removeAttr('disabled');
+        }, 10000);
       }
     });
 
