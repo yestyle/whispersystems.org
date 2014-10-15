@@ -92,7 +92,7 @@ packet latencies.
 We began by defining the maximum jitter buffer size we'd consider using in practice -- regardless of network conditions -- as 
 about half a second.  Then, we divided this timespan into bins with lengths equal to a single UDP packet (40 milliseconds).  When 
 a network dropout is detected by the 
-[DropoutTracker](https://github.com/WhisperSystems/RedPhone/blob/master/src/org/thoughtcrime/redphone/audio/DropoutTracker.java), 
+[DropoutTracker](https://github.com/WhisperSystems/RedPhone/blob/3fda3ac9ff251a5e2758a96eeb9f00449e53c2bc/src/org/thoughtcrime/redphone/audio/DropoutTracker.java), 
 it increments the count in the bucket corresponding to the length of the dropout.  Bucket counts are rolling counts, so older 
 events are dropped after a sufficient amount of time has elapsed.  Dropouts longer than the maximum buffer length are counted in 
 the last bucket.  We define the maximum number of acceptable network dropout events and examine the bin counts to find the jitter 
@@ -107,7 +107,7 @@ numbers should arrive at what times.  This estimate allows it to adapt to clock-
 audio packets stored in RedPhone's jitter buffer is significantly different from the number expected at a given time, or when the 
 buffer is nearly empty, the audio playback rate is adjusted.  If there's not enough audio we stretch the audio signal out in time 
 to allow the buffer to fill.  If there are too many packets in the buffer we play the audio data faster.  The 
-[PacketLossConcealer](https://github.com/WhisperSystems/RedPhone/blob/master/src/org/thoughtcrime/redphone/audio/PacketLossConcealer.java) uses a native library to adjust the audio playback rate without altering pitch, allowing RedPhone to adjust the total time 
+[PacketLossConcealer](https://github.com/WhisperSystems/RedPhone/blob/3fda3ac9ff251a5e2758a96eeb9f00449e53c2bc/src/org/thoughtcrime/redphone/audio/PacketLossConcealer.java) uses a native library to adjust the audio playback rate without altering pitch, allowing RedPhone to adjust the total time 
 delay between microphone and speaker on the fly.
 
 ## Android's AudioMixer API
@@ -117,7 +117,7 @@ pre-loaded audio clips which can be triggered when needed.  However, the interfa
 media playback applications that stream media for playback but are relatively insensitive to latency.  This interface buffers 
 audio written to it, in an attempt to relieve the application from the burdens of implementing a low-latency callback based 
 solution.  The size and current state of this buffer is not directly accessible--although the current playhead position can be 
-accessed, this value is updated intermittently via a binder interface.  RedPhone implements a [LatencyMinimizingAudioPlayer](https://github.com/WhisperSystems/RedPhone/blob/master/src/org/thoughtcrime/redphone/audio/LatencyMinimizingAudioPlayer.java) that attempts to find the minimum reported buffer level that can be maintained in the mixer without 
+accessed, this value is updated intermittently via a binder interface.  RedPhone implements a [LatencyMinimizingAudioPlayer](https://github.com/WhisperSystems/RedPhone/blob/3fda3ac9ff251a5e2758a96eeb9f00449e53c2bc/src/org/thoughtcrime/redphone/audio/LatencyMinimizingAudioPlayer.java) that attempts to find the minimum reported buffer level that can be maintained in the mixer without 
 causing underflows.
 
 The implementation counts audio underflow events using a leaky integrator.  When these events occur frequently, the desired buffer 
@@ -127,7 +127,7 @@ ensure we get the lowest audio latency possible on a given device.  Additionally
 when an underflow occurs for an extended period of time, and it will not resume until the buffer is filled past a certain 
 threshold. This behavior is desirable for a media player streaming audio over an unreliable network, but in our system it can 
 cause playback to stop indefinitely, since the system will not fill the mixer's audio buffer beyond the desired level. 
-To resolve this, [RobustAudioTrack](https://github.com/WhisperSystems/RedPhone/blob/master/src/org/thoughtcrime/redphone/audio/RobustAudioTrack.java) detects this lockup condition and inserts more audio than the desired level to restart playback.
+To resolve this, [RobustAudioTrack](https://github.com/WhisperSystems/RedPhone/blob/3fda3ac9ff251a5e2758a96eeb9f00449e53c2bc/src/org/thoughtcrime/redphone/audio/RobustAudioTrack.java) detects this lockup condition and inserts more audio than the desired level to restart playback.
 
 ## Future Work
 
