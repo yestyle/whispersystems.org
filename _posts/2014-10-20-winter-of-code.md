@@ -51,8 +51,8 @@ in Maui, March 2013.  You can read more about it
 ## The Details for This Winter
 
 This *Winter Break Of Code* will be **January 10th to January 31st, 2015** (you can come from one to three weeks of that time).
-We have access to a large beachfront house in Hanalei, on the north coast of Kauai, HI (within walking distance to a world
-class surf spot). We will be taking up to fifteen people, and will cover your costs for:
+We'll be in Hanalei, on the north coast of Kauai, HI (within walking distance to a world class surf spot). We will be taking up
+to fifteen people, and will cover your costs for:
 
 -  Lodging in a large beachfront house.
 -  Your roundtrip airfare.
