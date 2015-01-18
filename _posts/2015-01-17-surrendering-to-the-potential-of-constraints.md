@@ -17,7 +17,7 @@ The initial idea was to institute a horizontal decision-making system. A methodo
 
 It was a form of governance intended to gradually flatten a heirarchy that the early industrial revolution had exaggerated. However, over time the mechanics revealed – somewhat conversely – a total institutionalization of 'nepotism'. Certain senior members of the Nomenklatura had the priviledge to appoint new members, and maintain long lists of qualified candidates. New members, now obliged from a favor, formed allegiances to their patrons. Patrons themselves carried social debts to those who appointed *them*, and it went on like this up the stack into the inner circle. The heirarchy didn't flatten, it sharpened.
 
-Speed ahead to our modern life. My social relations are all but completely virtualized. My list of friends and followers, contacts and matches, profiles and handles ... all thrum wildly. Apps are released every week which impose and constrain my lists into new formations, reconstructing my social life over and over. It's possible to see the reflection of Soviet governance in our own lives today; perhaps there are hundreds of thousands of members (less probably) of a new beurocratic class – technocratic knowledge workers, let's say – who organize and signify civic life in the contemporary age. Building cooperative protocols and APIs and apps and networks. Designing the interfaces and behaviors and experiences of everyone else. Teaching but sometimes refusing to learn, giving generously but sometimes taking without permission, anticipating what we want but often supposing what we want without asking. Designing our dismal fate. Slowly appointing their heirs by proximity. 
+Speed ahead to our modern life. My social relations are all but completely virtualized. My list of friends and followers, contacts and matches, profiles and handles ... all thrum wildly. Apps are released every week which impose and constrain my lists into new formations, reconstructing my social life over and over. It's possible to see the reflection of Soviet governance in our own lives today; perhaps there are hundreds of thousands of members (less, probably) of a new bureaucratic class – technocratic knowledge workers, let's say – who organize and signify civic life in the contemporary age. Building cooperative protocols and APIs and apps and networks. Designing the interfaces and behaviors and experiences of everyone else. Teaching but sometimes refusing to learn, giving generously but sometimes taking without permission, anticipating what we want but often supposing what we want without asking. Designing our dismal fate. Slowly appointing their heirs by proximity. 
 
 As a publisher and designer, I count myself among this degenerate few and tread carefully whenever I manage to move or speak at all.
 
@@ -55,7 +55,7 @@ One of the nice things about our "breaks of code" is that we're all eavesdroppin
     [major].[minor]_[flow].[view]-[modal][subview]
 
 >
-> This system also allows us to keep our mockup files organized, and maintain confidence in asset and documentation "permalinks" using the Pixelapse locations. Here is the director structure we use:
+> This system also allows us to keep our mockup files organized, and maintain confidence in asset and documentation "permalinks" using the Pixelapse locations. Here is the directory structure we use:
 
     signal-ios/
     ├── docs/
@@ -82,7 +82,7 @@ It's incomplete, and I'm always embarassed to share incomplete work, but this ti
 
 ## Closing the Distance between Development and Design
 
-While developing this system, it became clear to me that I wouldn't be able to impose my contributions without at least catching up to a small part of the app developing experience. I've never really used Xcode. I had it installed on my computer, but it was *there* in the same way that expensive exercise machines are just *there*. First in a main living area, then off to the corner, then in the basement, then folded up and ignored.
+While developing this system, it became clear to me that I wouldn't be able to impose my contributions without at least catching up to a small part of the app development experience. I've never really used Xcode. I had it installed on my computer, but it was *there* in the same way that expensive exercise machines are just *there*. First in a main living area, then off to the corner, then in the basement, then folded up and ignored.
 
 But I unpacked it. [Christine](https://twitter.com/corbett) helped me set it up, showed me all the dials and switches, and set me loose on a world of tutorials and walkthroughs and in about three hours I was building out my designs, constraining subviews, and organizing the storyboard according to our new naming conventions and system map. A few more hours later I was running the app on my phone.
 
@@ -100,7 +100,7 @@ I'd like to think that during the birth of an epoch of mass-surviellance, techno
 
 One sunny afternoon I was bobbing up and down in the surf. We were all out there wading around. [Moxie](https://twitter.com/moxie) was explaining to Geoff how to catch a wave on a board. "The force of the wave is too strong and it will just pass under you if you do nothing. You've got to use gravity. You have to fall *down* the wave before its force can pass you. And you have to be ready to lean back and fall more slowly if you want to stay with it." 
 
-So, whatever the constraint: the danger of power centralized in the hands of a technocratic class, the organizations that must coalesce regardless, a collusion of repressive states facing widespread global resistance, or the anxiety of wanting to contribute to a counter-argument but feeling ill-equipped, or simply the arrangement of objects on a screen ... you don't always have to iterate solely forwards to improve. But if and when the occasion arises, try to remember to change the direction in which lean from time to time so you can appreciate the undertaking for what it is: a one way trip.
+So, whatever the constraint: the danger of power centralized in the hands of a technocratic class, the organizations that must coalesce regardless, a collusion of repressive states facing widespread global resistance, the anxiety of wanting to contribute to a counter-argument but feeling ill-equipped, or simply the arrangement of objects on a screen ... you don't always have to iterate solely forwards to improve. But, if and when the occasion arises, try to remember to change the direction in which you lean from time to time so you can appreciate the undertaking for what it is: a one way trip.
 
 ----
 
