@@ -4,7 +4,7 @@ layout: post
 ---
 
 *A guest post from [Lilia](https://twitter.com/liliakai), Winter Break Of Code
-Day 6*
+Day 7*
 
 Yesterday was a day of meetings. Discussion and debate flourished.
 Conversations ranged over all parts of every project. Words spoken aloud may
@@ -27,7 +27,7 @@ even he could not answer: **Why are they called elliptic curves?**
 
 From Weierstrauss to Montgomery to Edwards formats, these geometric objects
 that form the essential mathematical underpinnings of many modern crypto
-systems, are not defined by ellipses, and don't look at all like ellipses. Not
+systems are not defined by ellipses, nor do they resemble ellipses. Not
 even for very stretchy definitions of an ellipse. There is no immediately
 obvious connection. So why do we call them that?
 
@@ -42,12 +42,12 @@ In your mind's eye, picture a pie.  If you don't like apple pie, let's say it's
 whatever your preferred kind of pie happens to be. Apple, cherry, lorem,
 coconut, pizza, vegan, gluten-free, etc. . .  The thing that really matters
 about this pie is that, unlike a traditional, circular pie, this one is shaped
-like an ellipse. It's about 10 inches long but only, say, 6 inches wide.
+like an ellipse. It's about 10 inches long -- but only, say, 6 inches wide.
 
-Now, pick up your mind's knife and cut into the pie along its long axis, then
-make another cut at some angle (let's call it θ) to the first cut so that you
+Now, pick up your mind's knife and cut into the pie down its long axis, then
+make another cut at some angle (let's call it θ) to the first cut, so that you
 can extract an unusually-shaped but still delicious slice of elliptic pie.  It
-can be as large as you like, just as long as you leave a little piece for me, I
+can be as large as you like, just as long as you leave a little piece for me; I
 won't judge.
 
 So, given that you know the length of the axes and the angle θ, how would you
@@ -56,8 +56,8 @@ of that slice? Go ahead and try, if you like.  I'll wait.
 
 <img src="/blog/images/lilia-elliptic-pie.jpg" class="nice" alt="The elliptic pie arc length problem" />
 
-This turns out to be a tricky problem, which I won't tell you how to solve yet,
-but now that you know about arc lengths, I can tell you why elliptic curves are
+This turns out to be a tricky problem, which I won't tell you how to solve yet.
+But now that you know about arc lengths, I can tell you why elliptic curves are
 called elliptic curves.
 
 Our story begins in 18th century Berlin, which was then a part of the Kingdom
@@ -76,7 +76,7 @@ forever.
 Buried somewhere in the heaps and stacks of papers covering the desk,
 entrenched among the paragraphs of long slanting script, lies a method for
 computing the arc length of an ellipse.  It's a nasty looking integral
-involving squares and trigonometric functions under a radical, the stuff of a
+involving squares and trigonometric functions under a radical -- the stuff of a
 first year calculus student's nightmares. From there, an analysis goes on to
 abstract and describe an entire class of integral functions of similar form.
 The elliptic arc length problem is but a special case application of these
