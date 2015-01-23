@@ -33,9 +33,10 @@ I spent most of the summer doing that, learning as I went. Not just about iOS de
 designing secure protocols and anonymous networks, but about why I was doing what I was doing.
 I went to a Ferguson rally in Oakland in August and met with protest organizers while police
 helicopters hovered angrily overhead. One of them told me about Moxie, and as I was reading
-everything he’d ever written on the internet, I came across his piece We Should All Have Something
-to Hide, which gave words to my feelings and purpose where there was only a vague sense that
-something should be done. 
+everything he’d ever written on the internet, I came across his piece
+[We Should All Have Something to Hide](http://www.thoughtcrime.org/blog/we-should-all-have-something-to-hide/),
+which gave words to my feelings and purpose where there was only a vague sense that something
+should be done. 
 
 <img src="/blog/images/wboc-hike-heli.jpg" class="nice"/>
 
@@ -43,9 +44,9 @@ something should be done.
 
 I’d consider myself incredibly lucky if we were doing this in a basement in Sacramento. I’ve been
 implementing media attachments and squashing bugs in the run up to the release of Signal 2.0,
-with mentorship from the brilliant and generous Christine. I’ve grokked the axolotl ratchet and
-have a new grasp on elliptic curve cryptography. I’ve surfed and hiked and dived and coded in
-all the spaces in between.
+with mentorship from the brilliant and generous [Christine](https://twitter.com/corbettt). I’ve
+grokked the axolotl ratchet and have a new grasp on elliptic curve cryptography. I’ve surfed and
+hiked and dived and coded in all the spaces in between.
 
 <img src="/blog/images/wboc-jack-signal.jpg" class="nice"/>
 
@@ -53,8 +54,8 @@ all the spaces in between.
 
 I leave tomorrow, back to a world of classes and normality, but not really, because I take with
 me these memories and friends and a whole bunch of issues that still need to be closed.  And I
-know that after my final “aloha”, Christine and Fred will still be here, furiously finishing the
-next version of Signal so that we all can take our privacy back.
+know that after my final “aloha”, [Christine](https://twitter.com/corbett) and [Fred](https://twitter.com/FredericJacobs)
+will still be here, furiously finishing the next version of Signal so that we all can take our privacy back.
 
 -- [Jack](https://twitter.com/jackflips), January 23rd 2015
 
