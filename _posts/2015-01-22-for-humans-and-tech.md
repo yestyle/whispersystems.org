@@ -47,7 +47,7 @@ Central and East Europe), they are used for official documents.
 <img src="/blog/images/yoko-waxseal.jpg" class="nice" alt="Hand-folded letter sealed with wax"/>
 
 The wax seal, the most commonly recognized form of seal in the western world, was at first only the privilege
-of aristocrats. Seals bore a unique emblem, and the signat ring used to press the wax was destroyed after the
+of aristocrats. Seals bore a unique emblem, and the signet ring used to press the wax was destroyed after the
 person's death in order to prevent forgeries. By the 13th century, it became the de facto standard used widely
 by merchants and individuals to authenticate official agreements such as contracts and wills. By the
 post-medieval period, the wax seal was widely used to keep personal letters confidential, as well as to
@@ -56,7 +56,7 @@ authenticate official documents.
 Similarly, from ancient history to modern day, personal messengers (aka couriers) have been used to deliver a
 simple letter or a message in order to ensure speed, security, verification, and authenticity. (Supposedly,
 the term Marathon is derived from the [legend of a Greek messenger](http://en.wikipedia.org/wiki/Marathon#Origin")
-who was sent from the battlefield of Marathon to announce Athen’s victory over Persians.) 
+who was sent from the battlefield of Marathon to announce Athens' victory over Persians.) 
 
 <img src="/blog/images/yoko-japanese-courier.jpg" class="nice" alt="Japanese courier between 1863 and 1877"/>
 
@@ -85,7 +85,7 @@ Various mentors of mine have told me to always have a point of view with my desi
 but I’m taking a stance on our right to private communication, and I’m honored to work on this project, however small
 my contribution might be.
 
-###Workaction is better than a regular vacation
+###Workation is better than a regular vacation
 
 <img src="/blog/images/yoko-filming.jpg" class="nice" alt="Filming for a promo video"/>
 
