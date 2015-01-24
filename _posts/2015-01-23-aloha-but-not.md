@@ -44,7 +44,7 @@ should be done.
 
 I’d consider myself incredibly lucky if we were doing this in a basement in Sacramento. I’ve been
 implementing media attachments and squashing bugs in the run up to the release of Signal 2.0,
-with mentorship from the brilliant and generous [Christine](https://twitter.com/corbettt). I’ve
+with mentorship from the brilliant and generous [Christine](https://twitter.com/corbett). I’ve
 grokked the axolotl ratchet and have a new grasp on elliptic curve cryptography. I’ve surfed and
 hiked and dived and coded in all the spaces in between.
 
