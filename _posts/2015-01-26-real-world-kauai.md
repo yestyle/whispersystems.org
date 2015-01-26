@@ -9,7 +9,7 @@ When I agreed to take part in Winter Break of Code, I had no idea what to really
 questioned my choice to spend my winter vacation writing code, I was excited for the opportunity to spend a week
 hanging out with an eclectic group of people while doing two of my favorite things: coding and surfing.
 
-<img src="/blog/images/tina-wboc.jpg" class="nice" alt="house"/>
+<img src="/blog/images/tina-wboc2.jpg" class="nice" alt="house"/>
 
 XXXXX
 
