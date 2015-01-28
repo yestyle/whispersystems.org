@@ -57,8 +57,8 @@ Should You wish to submit work that is not Your original creation, You may submi
 You agree to notify Open Whisper Systems of any facts or circumstances of which you become aware that would make these representations inaccurate in any respect.    
 </li>
 </ol>
-<iframe height="673" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://whispersystems.wufoo.com/embed/m9ybaeo1e0rb6n/"><a href="https://whispersystems.wufoo.com/forms/m9ybaeo1e0rb6n/">Fill out my Wufoo form!</a></iframe>
 
+  <h2>Sign Electronically</h2>
   <div style="padding: 20px">
     <div id="error-container" style="padding: 20px 0; display: none;">
       <div style="color: #a94442; background-color: #f2dede; border: 1px solid #ebccd1; padding: 10px;">
@@ -386,12 +386,14 @@ You agree to notify Open Whisper Systems of any facts or circumstances of which 
         var param = params[i];
         data[param["name"]] = param["value"] ? param["value"] : "";
       }
-      var sha = getQueryVariable("sha");
+      var redirectUrl = getQueryVariable("redirect_url");
+      var url = "https://open-whisper-cla.appspot.com/cla-server/form";
+      if (redirectUrl) url = url + "?redirect_url=" + redirectUrl;
       var locked = false;
       if (!locked) {
         $.ajax({
           type: "POST",
-          url: "https://open-whisper-cla.appspot.com/cla-server/form?sha=" + sha,
+          url: url,
           data: JSON.stringify(data),
           headers: {
             'Content-Type': 'application/json'
@@ -427,3 +429,4 @@ You agree to notify Open Whisper Systems of any facts or circumstances of which 
       return false;
     }
   </script>
+
