@@ -48,5 +48,6 @@ big thanks for all the pull requests that came in from the community along the w
 
 Like everything we do at Open Whisper Systems, dedicated development is supported by
 [community donations](https://freedom.press/bundle/encryption-tools-journalists) and grants. Signal contains no advertisements,
-and it doesn't cost anything to use. [Try it out!](https://itunes.apple.com/us/app/signal-private-messenger/id874139669)!
+and it doesn't cost anything to use. [Try it out!](https://itunes.apple.com/us/app/signal-private-messenger/id874139669)
+
 
