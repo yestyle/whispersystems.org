@@ -5,6 +5,8 @@ layout: post
 
 <img src="/blog/images/signal-new.jpg" alt="The New Signal"/>
 
+<a href="https://itunes.apple.com/us/app/signal-private-messenger/id874139669"><img src="/blog/images/appstore.png"/></a>
+
 Today we're releasing [Signal 2.0](https://itunes.apple.com/us/app/signal-private-messenger/id874139669), with
 support for TextSecure private messaging.
 
