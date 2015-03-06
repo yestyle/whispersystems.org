@@ -30,7 +30,7 @@ A number of important factors have led us here:
 1. **SMS and MMS are a security disaster**. They leak all possible metadata 100% of the time to thousands of cellular
    carriers worldwide. It's common to think of SMS/MMS as being "offline" or "peer to peer," but the truth is that
    SMS/MMS messages are still processed by servers--the servers are just controlled by the telcos.  We don't want the
-   state-run telcos in Saudi, Iran, Bahrain, Belarus, China, Iran, Egypt, Cuba, USA, etc... to have direct access to the
+   state-run telcos in Saudi, Iran, Bahrain, Belarus, China, Egypt, Cuba, USA, etc... to have direct access to the
    metadata of TextSecure users in those countries or anywhere else.
 1. **It's holding us back**.  Dealing with all the corner cases associated with the encrypted SMS/MMS transport prevents
    us from dedicating focus and attention to make the overall product better.
