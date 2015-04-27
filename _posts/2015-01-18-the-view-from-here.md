@@ -1,9 +1,10 @@
 ---
 title: "Blog >> The View From here"
 layout: post
+author: trevp
 ---
 
-*A guest post from [Trevor](https://twitter.com/trevp__), Winter Break Of Code, Day 6*
+*Winter Break Of Code, Day 6*
 
 I've been working with Open Whisper Systems on TextSecure for about
 a year and a half.  I feel like I've earned better treatment than

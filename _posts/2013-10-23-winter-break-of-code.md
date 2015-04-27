@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Winter Break Of Code"
 layout: post
+author: moxie0
 ---
 
 At Open Whisper Systems, we're focused on creating easy to use privacy enhancing technology.  Our projects are free, Open Source,

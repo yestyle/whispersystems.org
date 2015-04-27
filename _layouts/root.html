@@ -1,126 +1,114 @@
 <!DOCTYPE html>
-<html class="no-js"> <!-- Classes dumped on HTML element by Modernizr -->
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <!-- meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" -->
-
-    {% assign title_parts = page.title | split: " " %}
-    {% if title_parts[0] == "Blog" and title_parts[1] == ">>" %}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@whispersystems">
-    <meta name="twitter:creator" content="@moxie">
-    <meta name="twitter:url" content="https://www.whispersystems.org{{ page.url }}">
-
-    {% assign title_parts = page.title | split: " >> " %}
-    <meta name="twitter:title" content="{{ title_parts[1] }}">
-
-    {% assign content_parts = page.content | split: 'XXXXX' %}
-    <meta name="twitter:description" content="{{ content_parts.first | markdownify | strip_html }}">
-
-    {% if page.image %}
-    <meta name="twitter:image" content="https://www.whispersystems.org{{ page.image }}" />
-    {% endif %}
-    {% endif %}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     {% if page.smartbanner == true %}
     <meta name="apple-itunes-app" content="app-id=874139669">
     {% endif %}
 
-
-    <title>Open WhisperSystems >> {{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Whisper Systems >> {{ page.title }}</title>
 
     <link rel="shortcut icon" href="{% asset_path header/favicon.ico %}" type="image/x-icon">
     <link rel="icon" href="{% asset_path header/favicon.ico %}" type="image/x-icon">
 
-    {% stylesheet normalize %}
-    {% stylesheet bootstrap-carousel %}
-    {% stylesheet main %}
-    <link rel="stylesheet" href="/fonts/opensans/stylesheet.css">
-    <link rel="stylesheet" href="/fonts/bitter/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    {% stylesheet theme %}
 
-    {% javascript vendor/modernizr-2.6.2-respond-1.1.0.min %}
-    {% javascript vendor/jquery-1.8.3.min %}
-
-    <link href="https://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet" type="text/css">
   </head>
 
-  <body>
-    <div id="wrap">
-      <div id="container">
-        <header class='main-head'>
-          <nav class='topnav bar container'>
-            <div class='header-graphics'>
-              <ul>
-                <li><a class='scroll' href="/#privacy">Apps</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="http://support.whispersystems.org/">Support</a></li>
-                <li><a title='Twitter' class='twitter' href="https://twitter.com/whispersystems">Twitter</a></li>
-              </ul>
-              <a href='/' id='raven-logo'>
-                <img class='bird' alt='Raven Logo' src="{% asset_path header/raven.png %}">
-              </a>
-              <a href='/' id='text-logo'>
-                <img class='whisper' alt="Whisper Systems" src="{% asset_path header/whispersystems.png %}" width="243" height="79">
-              </a>
+  <body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top {% if page.header != true %} navbar-shrink {% endif %}">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/#page-top">Open Whisper Systems</a>
             </div>
 
-          </nav>
-
-          {% if page.header == true %}
-            <div id="telephone">
-              <div class='text darken'>
-                <p class='tagline1 container'>Security, simplified.</p>
-                <p class='tagline2 container'><strong>Open Source</strong> security for mobile devices.</p>
-              </div>
-            </div>
-
-            <div class='container solutions'> <!-- .solutions is not really a semantic description. -->
-              <p>Get started.</p>
-            </div>
-          {% endif %}
-        </header>
-
-        {{ content }}
-
-        </div> <!-- /container -->
-        <div class='push'></div>
-    </div> <!-- /wrap -->
-        <footer>
-          <section id='bottom'>
-            Stay in touch,
-            <a href="https://twitter.com/whispersystems" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false"> Follow @whispersystems </a> on Twitter.
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </section>
-
-          <div class='bar-wrap'>
-            <div class='bar'>
-              <p class='notice copyright'>&copy; 2013-2014 Open Whisper Systems &mdash; info@whispersystems.org</p>
-              <nav class='botnav'>
-                <ul>
-                  <li><a class='scroll' href="/#privacy">Our Apps</a></li>
-                  <li><a href="/blog/">The Blog</a></li>
-                  <li><a href="http://support.whispersystems.org/">Support</a></li>
-                  <li><a title='Twitter' class='twitter' href="https://twitter.com/whispersystems">Twitter</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="http://support.whispersystems.org">Support</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/blog/">Blog</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Developers</a>
+                    </li>
+		    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Install</a>
+                      <ul class="dropdown-menu" role="menu">
+			<li><a href="#"><i class="fa fa-android"></i></a></li>
+			<li><a href="#"><i class="fa fa-apple"></i></a></li>
+                      </ul>
+		    </li>
+		    <li>
+		      <a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i></a>
+		    </li>
                 </ul>
-              </nav>
             </div>
-            <div class='clearfix'></div>
-          </div>
-        </footer>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<!-- Final scripts after vital HTML elements in root -->
+
+    {{ content }}
+
+   <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Open Whisper Systems 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://github.com/whispersystems"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
-    {% javascript vendor/bootstrap-transition %}
-    {% javascript vendor/bootstrap-carousel %}
-    {% javascript main %}
 
-<!--<script src="/js/vendor/bootstrap-transition.js"></script>
-    <script src="/js/vendor/bootstrap-carousel.js"></script>
-    <script src="/js/main.js"></script> "Commented out because of JEKYLL Assets" -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    {% if page.header == true %}
+    {% javascript cbpAnimatedHeader %}
+    {% javascript classie %}
+    {% javascript theme %}
+    {% endif %}
 
     <script>
       var clicky_site_ids = clicky_site_ids || [];

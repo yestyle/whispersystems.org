@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Real World Kauai"
 layout: post
+author: kmonkeyjam
+guest: true
 ---
 
-*A guest post from [Tina](https://twitter.com/kmonkeyjam), Winter Break Of Code Day Fourteen*
+*Winter Break Of Code Day Fourteen*
 
 When I agreed to take part in Winter Break of Code, I had no idea what to really expect.  While many people
 questioned my choice to spend my winter vacation writing code, I was excited for the opportunity to spend a week

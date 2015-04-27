@@ -1,8 +1,28 @@
 ---
-layout: blog
+layout: root
 ---
 
-<article class="container">
+<section id="post">
+  <article>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<img class="author img-responsive img-circle" src="https://avatars.githubusercontent.com/{{ page.author }}"/>
+	{% assign title_parts = page.title | split: ' >> ' %}
+	<h2 class="post-title">
+	  {{ title_parts[1] }}
+	</h2>
+	<h3 class="post-subtitle">
+	  {% if page.guest == true %}A guest post by {% endif %}
+	  <a href="https://github.com/{{ page.author }}">{{ page.author }}</a> on {{ page.date || date_to_string }}
+	</h3>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 {% assign parts = content | split: 'XXXXX' %}
 {{ parts.first }}
@@ -10,25 +30,17 @@ layout: blog
 {{ parts[1] }}
 {% endif %}
 
-  <ul class="social-buttons">
-    <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="whispersystems">Tweet</a></li>
-    <li><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.whispersystems.org{{ page.url | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:107px; height:21px;" allowTransparency="true"></iframe></li>
-    <li><a href="http://news.ycombinator.com/submit"  data-title="{{ page.blog }}" data-url="http://whispersystems.me{{ page.url }}" class="hn-share-button">Vote on HN</a></li>
-  </ul>
+<div class="social-sharing">
+    <a href="https://twitter.com/intent/tweet?text={{ title_parts[1] }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</a>
+    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a> 
+    <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}&t={{ title_parts[1] }}" rel="nofollow" title="Share on Hacker News" target="_blank" class="btn btn-hn"><i class="fa fa-hacker-news"></i> Hacker News</a>
+</div>
 
-  <div id="disqus_thread"></div>
+
+	</div>
+      </div>
+    </div>
 
 <!-- Final scripts after vital HTML elements in post -->
-
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-  </script>
-  <script>
-    (function(d, t) {
-    var g = d.createElement(t),
-    s = d.getElementsByTagName(t)[0];
-    g.src = '//hnbutton.appspot.com/static/hn.js';
-    s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-  </script>
-
-</article>
+  </article>
+</section>

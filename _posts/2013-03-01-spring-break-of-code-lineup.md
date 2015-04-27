@@ -1,6 +1,7 @@
 ---
 title: "Blog >> SBoC Lineup"
 layout: post
+author: moxie0
 ---
 
 We were excited about our [Spring Break Of Code announcement](/blog/spring-break-of-code/), but the response 

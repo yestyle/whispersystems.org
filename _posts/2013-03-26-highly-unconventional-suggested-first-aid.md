@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Highly Unconventional Suggested First Aid"
 layout: post
+author: rhodey
+guest: true
 ---
 
-*A guest post by [rhodey](http://anhonesteffort.org).  Spring Break Of Code, Day Two*
+*Spring Break Of Code, Day Two*
 
 "I am torn on how best to introduce myself out of context like this, the idea of rattling off facts from my resume is my 
 first instinct, but that seems terribly conventional. With the goal of introducing myself and the entirety of my character, 

@@ -1,9 +1,10 @@
 ---
 title: "Blog >> The value of our confidences"
 layout: post
+author: abolishme
 ---
 
-*A guest post by [Tyler](https://twitter.com/abolishme). Winter Break of Code, Day Five*
+*Winter Break of Code, Day Five*
 
 <img src="/blog/images/wboc-tyler-jump.png" alt="Jumping off the pier at Hanalei Bay" />
 

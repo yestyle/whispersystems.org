@@ -1,9 +1,10 @@
 ---
 title: "Blog >> Star Quality"
 layout: post
+author: elchao96
 ---
 
-*A guest post from Emily, Winter Break Of Code Day 2*
+*Winter Break Of Code Day 2*
 
 Because I might get sappy, here's a picture to ease that before I let it all out. 
 

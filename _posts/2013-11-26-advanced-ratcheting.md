@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Advanced cryptographic ratcheting"
 layout: post
+author: moxie0
 ---
 
 At Open WhisperSystems, we've been working on improving our encrypted asynchronous chat protocol for TextSecure.

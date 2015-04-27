@@ -1,9 +1,11 @@
 ---
 title: Blog >> Streamlining TextSecure Settings
 layout: post
+author: liliakai
+guest: true
 ---
 
-*A guest post by [lilia](https://twitter.com/liliakai). Spring Break Of Code, Day Three*
+*Spring Break Of Code, Day Three*
 
 I am no stranger to Hawaii. Although I've never lived here myself, I've visited
 the islands perhaps a dozen times. My grandmother and my father were born and

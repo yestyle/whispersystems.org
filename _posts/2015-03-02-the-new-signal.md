@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Signal 2.0: Private messaging comes to the iPhone"
 layout: post
+author: moxie0
 ---
 
 <img src="/blog/images/signal-new.jpg" alt="The New Signal"/>

@@ -1,9 +1,11 @@
 ---
 title: "Blog >> For the Love of Humans and Technology"
 layout: post
+author: uxyoko
+guest: true
 ---
 
-*A guest post from [Yoko](https://twitter.com/yknakano). Winter Break of Code Day Ten*
+*Winter Break of Code Day Ten*
 
 A couple of days ago, [Jake](https://twitter.com/clpwn), one of the brilliant full timers on
 [Open Whisper Systems]( https://twitter.com/whispersystems), looked up from his laptop and asked

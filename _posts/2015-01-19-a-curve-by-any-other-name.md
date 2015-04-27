@@ -1,10 +1,10 @@
 ---
 title: "Blog >> A curve by any other name"
 layout: post
+author: liliakai
 ---
 
-*A guest post from [Lilia](https://twitter.com/liliakai), Winter Break Of Code
-Day 7*
+*Winter Break Of Code Day 7*
 
 Yesterday was a day of meetings. Discussion and debate flourished.
 Conversations ranged over all parts of every project. Words spoken aloud may

@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Winter Of Code"
 layout: post
+author: moxie0
 ---
 
 This January, Open Whisper Systems will be hosting a *Winter Break Of Code*.  We've managed to get access to a

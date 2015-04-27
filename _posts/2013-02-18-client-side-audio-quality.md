@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Client-side call quality"
 layout: post
+author: emblem
 ---
 
 In our [previous post](/blog/low-latency-switching), we discussed the global infrastructure that allows RedPhone clients 

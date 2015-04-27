@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Spring Break Of Code"
 layout: post
+author: moxie0
 ---
 
 This Spring will be the first Open Whisper Systems *Spring Break Of Code*, a week-long, expenses-paid retreat to

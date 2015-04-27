@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Encryption, encryption everywhere"
 layout: post
+author: jessysaurusrex
+guest: true
 ---
 
-*A guest post from [Jessy](https://twitter.com/jessysaurusrex), Winter Break Of Code Day 8*
+*Winter Break Of Code Day 8*
 
 <img src="/blog/images/wboc-water.jpg" class="nice"/>
 

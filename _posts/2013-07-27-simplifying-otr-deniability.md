@@ -1,6 +1,7 @@
 ---
 title: Blog >> Simplifying OTR deniability.
 layout: post
+author: moxie0
 ---
 
 At Open Whisper Systems we help develop [TextSecure](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms), an

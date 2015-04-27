@@ -1,6 +1,7 @@
 ---
 title: "Blog >> The New TextSecure: Privacy Beyond SMS"
 layout: post
+author: moxie0
 ---
 
 Today's [release of TextSecure](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) is the final

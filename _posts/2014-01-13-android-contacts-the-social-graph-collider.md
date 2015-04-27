@@ -1,9 +1,10 @@
 ---
 title: "Blog >> Android Contacts, the Social Graph Collider"
 layout: post
+author: rhodey
 ---
 
-*A guest post by [Rhodey](https://twitter.com/notrhodey). Winter Break of Code, Day Seven*
+*Winter Break of Code, Day Seven*
 
 <img src="/blog/images/wboc-rhodey-surfn.jpg" alt="Rhodey surfing" />
 

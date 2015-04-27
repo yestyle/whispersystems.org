@@ -2,6 +2,7 @@
 title: Blog >> SBoC Farewell
 layout: post
 image: /blog/images/sboc-goodbye.jpg
+author: moxie0
 ---
 
 The last code committed, the final waves surfed in to the shore, the closing sunset of Spring Break Of Code.

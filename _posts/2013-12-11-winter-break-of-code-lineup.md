@@ -1,6 +1,7 @@
 ---
 title: "Blog >> WBoC Lineup"
 layout: post
+author: moxie0
 ---
 
 After our wonderful experience with [Spring Break Of Code](https://whispersystems.org/blog/sure), we were excited to try this

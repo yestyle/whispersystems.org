@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Roosters and a mountain of design"
 layout: post
+author: mcginty
+guest: true
 ---
 
-*A guest post by [Jake](https://twitter.com/clpwn). Winter Break of Code, Day One*
+*Winter Break of Code, Day One*
 
 <img src="/blog/images/jake-wboc-pier.jpg" class="nice" alt="The pier at Hanalei Bay, island of Kauai" />
 

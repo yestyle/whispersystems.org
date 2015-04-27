@@ -1,9 +1,9 @@
 ---
 title: "Blog >> Alpine Hackathon Reportback"
 layout: post
+author: meskio
+guest: true
 ---
-
-*A guest post by [meskio](http://meskio.net/).*
 
 My cell phone used to be a black and white Nokia until a couple of weeks ago when I decided to enter in the smartphone world. 
 Now that there are more mobile devices connected to the internet than computers, I think it's time for me as well to discover 

@@ -1,9 +1,10 @@
 ---
 title: "Blog >> The pool on the roof must have a leak"
 layout: post
+author: rileyjshaw
 ---
 
-*A guest post from [Riley](https://twitter.com/rileyjshaw), Winter Break Of Code Day 9*
+*Winter Break Of Code Day 9*
 
 Today we hiked the Kalalau Trail and swam beneath the cold spray of a waterfall.
 

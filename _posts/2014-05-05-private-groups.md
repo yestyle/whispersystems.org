@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Private Group Messaging"
 layout: post
+author: moxie0
 ---
 
 One of the major features we introduced in the [TextSecure v2](/blog/the-new-textsecure/) release was private group chat.

@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Design of Crypto"
 layout: post
+author: mkhandekar
+guest: true
 ---
 
-*A guest post by [Meghana](https://twitter.com/mkhandekar). Winter Break of Code, Day Three*
+*Winter Break of Code, Day Three*
 
 We are at the half way point of Winter Break of Code. We have two homes near the beach shared by 12 people. 10 of us are working on the apps & website and 2 are leading up delicious dinner efforts. We've spent time on the beach, in the ocean, in the mountains, and of course working. Concepts for future start ups and tactics about self publishing books are brewing, and conversations are lined with politics and activism. Work sessions are focussed on making cryptography usable in existing Andriod apps and soon to be released iPhone apps. 
 

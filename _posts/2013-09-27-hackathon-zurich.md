@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Open Whisper Systems Alpine Hackathon"
 layout: post
+author: moxie0
 ---
 
 From October 11th to October 13th, we'll be hosting an informal Open Whisper Systems *Alpine Hackathon* for those in or

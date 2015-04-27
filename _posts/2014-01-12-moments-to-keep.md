@@ -1,9 +1,10 @@
 ---
 title: "Blog >> Moments to keep"
 layout: post
+author: meskio
 ---
 
-*A guest post by [meskio](http://meskio.net/). Winter Break of Code, Day Six*
+*Winter Break of Code, Day Six*
 
 A lot of great memories will stay with me after this intense week. The house 
 surrounded by palm trees, people with computers in every corner: laying down a 

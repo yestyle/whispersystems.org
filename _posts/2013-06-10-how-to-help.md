@@ -1,6 +1,7 @@
 ---
 title: Blog >> Interested in privacy enhancing technology? How to get involved at Open Whisper Systems.
 layout: post
+author: moxie0
 ---
 
 Open Whisper Systems is a project focused on developing Open Source security and privacy apps for the

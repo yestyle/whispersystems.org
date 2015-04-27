@@ -1,6 +1,7 @@
 ---
 title: "Blog >> TextSecure, Now With 10 Million More Users"
 layout: post
+author: moxie0
 ---
 
 At Open WhisperSystems, we're working to both advance the state of the art for secure communication

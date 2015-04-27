@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Better than cake"
 layout: post
+author: lilia
+guest: true
 ---
 
-*A guest post by [lilia](https://twitter.com/liliakai). Winter Break of Code, Day Two*
+*Winter Break of Code, Day Two*
 
 By all rights, I should not be here. My application was last-minute to say the
 least, and little more than a casual note that I'd be down to reprise my role

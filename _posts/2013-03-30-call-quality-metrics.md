@@ -1,9 +1,10 @@
 ---
 title: Blog >> Call Quality Metrics
 layout: post
+author: emblem
 ---
 
-*Post by [Stuart Anderson](https://twitter.com/emblem__). Spring Break Of Code, Day Six*
+*Spring Break Of Code, Day Six*
 
 Because secure systems aren't valuable if they're not used, WhisperSystems has always focused on delivering strong 
 cryptography alongside a great user experience.  That's the reason [call quality](http://www.whispersystems.org/blog/client-side-audio-quality) has always been a priority in RedPhone's development.

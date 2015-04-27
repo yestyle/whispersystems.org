@@ -1,9 +1,11 @@
 ---
 title: Blog >> All The Things That Pull And Push
 layout: post
+author: abolishme
+guest: true
 ---
 
-*A guest post by [Tyler](https://twitter.com/abolishme). Spring Break Of Code, Day Five*
+*Spring Break Of Code, Day Five*
 
 
 <img src="/blog/images/feet.png" class="nice" alt="Bare feet in the sand" />

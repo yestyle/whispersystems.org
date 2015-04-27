@@ -1,9 +1,11 @@
 ---
 title: "Blog >> If you see a bug in the code, it's probably dying"
 layout: post
+author: turtlekiosk
+guest: true
 ---
 
-*A guest post from [Calvin](https://twitter.com/turtlekiosk), Winter Break Of Code Day 1*
+*Winter Break Of Code Day 1*
 
 I woke up this morning feeling like this routine was normal, instead of implausible.
 Two days ago, I was in New York City, riding the train with millions of other commuters

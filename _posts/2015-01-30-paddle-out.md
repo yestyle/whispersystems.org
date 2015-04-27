@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Paddle Out"
 layout: post
+author: lconnolly
+guest: true
 ---
 
-*A guest post from [Luke Connolly](https://twitter.com/kidminded), Winter Break Of Code Day Eighteen*
+*Winter Break Of Code Day Eighteen*
 
 <img src="/blog/images/luke-paddle-out.jpg" class="nice" alt="Paddle Out"/>
 

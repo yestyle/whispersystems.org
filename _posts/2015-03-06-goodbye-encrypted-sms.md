@@ -1,6 +1,7 @@
 ---
 title: "Blog >> Saying goodbye to encrypted SMS/MMS"
 layout: post
+author: moxie0
 ---
 
 It's 2015, and the end of the road for encrypted SMS/MMS in TextSecure.

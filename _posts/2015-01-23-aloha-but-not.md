@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Aloha But Not"
 layout: post
+author: jackflips
+guest: true
 ---
 
-*A guest post from [Jack](https://twitter.com/jackflips), Winter Break Of Code Day Eleven*
+*Winter Break Of Code Day Eleven*
 
 Every morning at standup I’d watch the knife spin in slow motion, dread filling my chest and
 a voice in my head repeating, over and over, “not Slytherin.” (The target of the knife is the

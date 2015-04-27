@@ -1,6 +1,7 @@
 ---
 title: "Blog >> The Difficulty Of Private Contact Discovery"
 layout: post
+author: moxie0
 ---
 
 Building a social network is not easy.  Social networks have value proportional to their size, 

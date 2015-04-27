@@ -1,9 +1,11 @@
 ---
 title: "Blog >> Dirigibles, Chinese Junk Rigs, and Surfboards"
 layout: post
+author: isislovecruft
+guest: true
 ---
 
-*A guest post by [Isis Lovecruft](https://blog.patternsinthevoid.net/). Spring Break Of Code, Day One.*
+*Spring Break Of Code, Day One.*
 
 One of the first times I met up with [Moxie](https://twitter.com/moxie) while travelling, we met at a dive bar in 
 San Francisco's Mission District, packed with hipsters. I had nineteen years, a modified state ID card, and just 
