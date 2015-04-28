@@ -1,0 +1,23 @@
+{% if page.is_post == true %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@whispersystems">
+<meta name="twitter:creator" content="@whispersystems">
+<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+
+{% assign title_parts = page.title | split: " >> " %}
+<meta name="twitter:title" content="{{ title_parts[1] }}">
+
+{% assign content_parts = page.content | split: 'XXXXX' %}
+<meta name="twitter:description" content="{{ content_parts.first | markdownify | strip_html }}">
+
+{% if page.image %}
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />
+{% endif %}
+{% else %}
+<meta name="twitter:card" content="app">
+<meta name="twitter:site" content="@whispersystems">
+<meta name="twitter:app:name:iphone" content="Signal">
+<meta name="twitter:app:id:iphone" content="874139669">
+<meta name="twitter:app:name:googleplay" content="TextSecure">
+<meta name="twitter:app:id:googleplay" content="org.thoughtcrime.securesms">
+{% endif %}

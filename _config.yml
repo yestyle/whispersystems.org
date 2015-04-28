@@ -1,6 +1,10 @@
+url: https://whispersystems.org
 safe: false
 auto: true
 pygments: true
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
 exclude:
   - Gemfile
   - Gemfile.lock

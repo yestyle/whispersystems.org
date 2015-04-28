@@ -1,16 +1,18 @@
 ---
 layout: root
 title: Blog
+active: blog
 ---
 
 <section id="blog" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-	<h2 class="section-heading">Open Whisper Systems Blog</h2>
-	<h3 class="section-subheading text-muted"><a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i>Stay in touch, follow us on Twitter</a></h3>
+<!--	<h2 class="section-heading">Dispatches from Open Whisper Systems</h2>-->
+	<h3 class="section-subheading text-muted text-right"><a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i>Stay in touch, follow us on Twitter</a></h3>
       </div>
     </div>
+    <div class="posts">
 
     {% for post in site.posts %}
     {% assign title_parts = post.title | split: ' >> ' %}
@@ -38,20 +40,7 @@ title: Blog
 	</div>
       </div>
     </div>
+    </div>
     
-<!--
-  <article class="container snippet">
-    {% assign title_parts = post.title | split: ' >> ' %}
-    <h2><a href="{{ post.url }}">{{ title_parts[1] }}</a></h2>
-    <h3 class="date">{{ post.date | date_to_string }}</h3>
-    <p>
-      {% assign parts = post.content | split: 'XXXXX' %}
-      {{ parts.first }}
-      {% if parts[1] %}
-      <a href="{{ post.url }}"><em>Read more...</em></a>
-      {% endif %}
-    </p>
-  </article>
--->
 {% endfor %}
 </section>

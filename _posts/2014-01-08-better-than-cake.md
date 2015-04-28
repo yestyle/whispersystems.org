@@ -1,7 +1,7 @@
 ---
 title: "Blog >> Better than cake"
 layout: post
-author: lilia
+author: liliakai
 guest: true
 ---
 
