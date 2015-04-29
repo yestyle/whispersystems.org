@@ -7,7 +7,7 @@
       var number = validateNumber();
       if (number) {
         textsecure.server.requestVerificationVoice(number).catch(displayError);
-        $('#step2').slideDown();
+        $('#step2').removeClass('hidden');
         $('#request-sms, #request-voice').prop('disabled', 'disabled');
         setTimeout(function() {
           $('#request-sms, #request-voice').removeAttr('disabled');
@@ -19,7 +19,7 @@
       var number = validateNumber();
       if (number) {
         textsecure.server.requestVerificationSMS(number).catch(displayError);
-        $('#step2').slideDown();
+	$('#step2').removeClass('hidden');
         $('#request-sms, #request-voice').prop('disabled', 'disabled');
         setTimeout(function() {
           $('#request-sms, #request-voice').removeAttr('disabled');
@@ -29,7 +29,7 @@
 
     $('form').submit(function(e) {
       e.preventDefault();
-      $('#error').hide();
+      $('#error').addClass('hidden');
       var number = validateNumber();
       var verificationCode = $('#code').val().replace(/\D/g, '');
       if (number && verificationCode.length) {
@@ -39,7 +39,7 @@
 
         textsecure.server.confirmCode(number, verificationCode, password, signalingKey, registrationId).then(function() {
           $('#step1, #step2').slideUp();
-          $('#success').slideDown();
+          $('#success').removeClass('hidden');
         }).catch(displayError);
       }
     });
@@ -51,7 +51,7 @@
   });
 
   function displayError(error) {
-    $('#error').hide().text(error).slideDown();
+    $('#error').addClass('hidden').text(error).removeClass('hidden');
   };
 
   function validateNumber() {
