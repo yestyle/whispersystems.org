@@ -6,12 +6,12 @@ active: blog
 
 <section id="blog" class="bg-light-gray">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!--    <div class="row"> -->
+<!--      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"> -->
 <!--	<h2 class="section-heading">Dispatches from Open Whisper Systems</h2>-->
-	<h3 class="section-subheading text-muted text-right"><a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i>Stay in touch, follow us on Twitter</a></h3>
-      </div>
-    </div>
+<!--	<h3 class="section-subheading text-muted text-right"><a href="https://twitter.com/whispersystems"><i class="fa fa-twitter"></i>Stay in touch, follow us on Twitter</a></h3> -->
+<!--      </div>-->
+<!--    </div> -->
     <div class="posts">
 
     {% for post in site.posts %}
@@ -19,28 +19,30 @@ active: blog
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 	<div class="panel panel-default">
-	  <img class="author img-responsive img-circle" src="https://avatars.githubusercontent.com/{{ post.author }}"/>
+	  <img class="author img-responsive img-circle" src="https://avatars.githubusercontent.com/{{ post.author }}" onerror="this.style.display='none'"/>
 	  <div class="panel-body">
             <div class="post-preview">
-		<h2 class="post-title">
-		  <a href="{{ post.url }}">{{ title_parts[1] }}</a>
-		</h2>
-		<h3 class="post-subtitle">
-		  {% if post.guest == true %}A guest post by {% endif %}
-		  <a href="https://github.com/{{ post.author }}">{{ post.author }}</a> on {{ post.date || date_to_string }}
-		</h3>
-		<p>
-		  {% assign parts = post.content | split: 'XXXXX' %}
-		  {{ parts.first }}
-		  {% if parts[1] %}
-		  <a href="{{ post.url }}"><em>Read more...</em></a>
-		  {% endif %}	    
+	      <h2 class="post-title">
+		<a href="{{ post.url }}">{{ title_parts[1] }}</a>
+	      </h2>
+	      <h3 class="post-subtitle">
+		{% if post.guest == true %}A guest post by {% endif %}
+		<a href="https://github.com/{{ post.author }}">{{ post.author }}</a> on {{ post.date || date_to_string }}
+	      </h3>
+	      <p>
+		{% assign parts = post.content | split: 'XXXXX' %}
+		{{ parts.first }}
+		{% if parts[1] %}
+		<a href="{{ post.url }}"><em>Read more...</em></a>
+		{% endif %}	    
+	      </p>
             </div>
 	  </div>
 	</div>
       </div>
     </div>
-    </div>
     
 {% endfor %}
+  </div>
+  </div>
 </section>
