@@ -25,15 +25,18 @@ A number of important factors have led us here:
    In addition to that friction, the edge cases for encrypted SMS/MMS are where users feel real pain. It's not possible
    for us to detect uninstalls or reinstalls, resulting in a situation where sessions are half-open, or where users
    who've uninstalled TextSecure receive blocks of garbled text from their contacts who still have active sessions.
+
 1. **iPhone compatibility is here**.  We recently launched [Signal for iPhone](/blog/the-new-signal), which includes
    support for TextSecure-compatible messaging.  However, iOS does not have APIs that allow us to programatically
    send/receive SMS messages. This means that encrypted SMS messages to iPhone users won't work, which creates
    potentially confusing compatibility issues for users.
+
 1. **SMS and MMS are a security disaster**. They leak all possible metadata 100% of the time to thousands of cellular
    carriers worldwide. It's common to think of SMS/MMS as being "offline" or "peer to peer," but the truth is that
    SMS/MMS messages are still processed by servers--the servers are just controlled by the telcos.  We don't want the
    state-run telcos in Saudi, Iran, Bahrain, Belarus, China, Egypt, Cuba, USA, etc... to have direct access to the
    metadata of TextSecure users in those countries or anywhere else.
+
 1. **It's holding us back**.  Dealing with all the corner cases associated with the encrypted SMS/MMS transport prevents
    us from dedicating focus and attention to make the overall product better.
 
