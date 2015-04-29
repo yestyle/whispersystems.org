@@ -40,9 +40,13 @@ There are three distinct phases, summarized as:
 ### Setup Phase
 
 1. Perform an exchange with each member to derive a session id.
+
 1. Do a pairwise, deniable, authenticated key exchange based on long-term keys with each member.
+
 1. Use the key exchange to exchange and prove possession of ephemeral (thus deniable) signature keys with each member.
+
 1. Perform a separate "group key agreement," authenticated by the signature keys.
+
 1. Attest that everyone is seeing the same thing.
 
 At this point, members are now ready to communicate.  Depending on some of the unresolved details, the number of round trip messages
@@ -65,7 +69,9 @@ the session is shut down and starts over again in the Setup Phase.
 The shutdown phase consists of the following steps:
 
 1. All members agree that there are no more messages in transit.
+
 1. All members calculate the hash of all messages they authored during the session, sorted in lexicographical order, and send those to all other members.
+
 1. All members receive the hash values of all messages authored by other members, and compare those to local values of what they originally received.
 
 At this point, users are notified whether the transcript they saw was consistent with all members or not.
@@ -77,13 +83,17 @@ As currently outlined, mpOTR has a few problems for an app like TextSecure:
 1. **Overhead**. For an asynchronous environment, even 4 * N round trip setup messages isn't practical.  In an asynchronous
    environment, clients need to be able to immediately transmit their message without depending on any interactivity from
    any of the recipients, so even a single round trip is too much.
+
 2. **Ephemeral Session Orientation**.  Several aspects of mpOTR assume that group chat sessions are relatively short lived, 
    which doesn't map well to an asynchronous environment.  An asynchronous chat "session" could be years long.
+
 3. **No In-Session Forward Secrecy**.  This is a primary feature of two party OTR, so it's surprising not to find it here.      
+
 4. **Consistency Surprise**. The transcript consistency mechanism in mpOTR offers a strange user experience, even in synchronous
    environments.  Only at the very end of a session, at the moment the user is leaving the chat, are they notified whether the
    conversation was "consistent" or not.  It's not clear what a user would do with the knowledge that, after a potentially
    hours-long conversation, something someone said somewhere during that conversation was seen inconsistently.
+
 5. **Complexity**.  From an implementation perspective, the protocol has a lot of moving parts and potential race conditions
    that could be difficult to get correct in all cases.
 

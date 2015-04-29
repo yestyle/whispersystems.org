@@ -65,28 +65,43 @@ To apply to *Winter Break Of Code*, send an email to **winterbreakofcode@whisper
 
 - **Tell us about yourself.** Who are you, where do you live, what have you been working on, and what interests you about 
   Open Whisper Systems and private communication?
+
 - **Your availability.** Which weeks are you available for, from January 10th to January 31st?
+
 - **Examples of your work.** Are there public contributions you've made that you're proud of?  Don't worry if you are a
   student or don't have tons of "industry" experience, personal projects are great.
+
 - **What you want to work on for Winter Break Of Code.** This should be something you're excited about that can either
   be finished in the duration of the trip, or that a useful and discrete part of can be finished in the duration of the trip.
   
   Some example ideas could be:
 
   1. An eliza-style TextSecure "chat bot" that people can use to test out TextSecure.
+
   1. Bring Flock to another platform.
+
   1. Modular "sticker packs" for TextSecure.
+
   1. A standalone Java SMS gateway server that adaptively selects the most successful SMS gateways for given regions.
+
   1. A privacy-preserving A/B testing framework.
+
   1. A testing infrastructure for the iOS projects.
+
   1. Helping with UI/UX design for the TextSecure browser extension.
+
   1. Helping with the iOS development effort.
+
   1. Any of the open issues on our GitHub trackers ([here](https://github.com/WhisperSystems/TextSecure/issues),
      [here](https://github.com/WhisperSystems/Signal-iOS/issues/), [here](https://github.com/WhisperSystems/TextSecure-Browser), or
      [here](https://github.com/WhisperSystems/RedPhone/issues/)).
+
   1. Doing some much needed design work on any Open Whisper Systems apps, icons, branding, etc.
+
   1. "Push to talk" functionality for RedPhone or TextSecure.
+
   1. Improving RedPhone call quality (experimenting Opus, adaptively adjusting bitrates in response to congestion, etc).
+
   1. Making UX iterations to the way the apps function (on Android or iOS).
 
   Or anything else you're excited about: fixing broken windows that have annoyed you, writing features you think would
