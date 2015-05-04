@@ -7,11 +7,11 @@ body {
 .text-muted {
     color: #777;
 }
-
+/*
 .text-primary {
     color: #fed136;
 }
-
+*/
 p {
     font-size: 14px;
     line-height: 1.75;
@@ -265,11 +265,18 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+header.main {
+   background-image: url(<%= asset_path "header/signal-header.jpg" %>);
+}
+
+header.jobs {
+    background-image: url(<%= asset_path "header/work-header.jpg" %>);
+}
+
 header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(<%= asset_path "header/signal-header.jpg" %>);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -280,9 +287,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 600px;
+    padding-top: 100px;
     padding-bottom: 50px;
-    padding-left: 900px;
 }
 
 header .intro-text .intro-lead-in {
@@ -352,9 +358,11 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
+/*
     section {
         padding: 150px 0;
     }
+*/
 }
 
 .service-heading {
@@ -379,7 +387,8 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+/*    background: rgba(254,209,54,.9);*/
+    background: rgba(0,140,221,.6);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -955,7 +964,7 @@ blockquote p:after {
   margin-bottom: 1em;
 }
 
-.promotional ul li .summary {
+.summary {
   font-weight: 800;
 }
 
@@ -1078,5 +1087,44 @@ h2.post-title {
 }
 
 #post .social-sharing {
+  margin-top: 50px;
+}
+
+/* jobs  */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#positions ul li p {
+  font-size:18px;
+  line-height: 1.5em;
+}
+
+.jobs {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.job-title {
+  margin-bottom: 40px;
+}
+
+#apply img {
+  max-width: 100%;
   margin-top: 50px;
 }
