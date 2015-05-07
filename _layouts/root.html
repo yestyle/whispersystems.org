@@ -119,6 +119,10 @@
 <!--    {% javascript theme %} -->
     {% endif %}
 
+    {% if page.cla == true %}
+    {% javascript cla %}
+    {% endif %}
+
     <script>
       var clicky_site_ids = clicky_site_ids || [];
       clicky_site_ids.push(100570585);
