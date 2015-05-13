@@ -1,9 +1,12 @@
 ---
-layout: blog
+layout: root
 title: Contributor License Agreement
 ---
 
-<article class="container snippet">
+<section id="cla">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     <p>
         In order to clarify the intellectual property license granted with Contributions from any person
         to us ("Open Whisper Systems"), Open Whisper Systems must have a Contributor License Agreement ("CLA") on
@@ -67,6 +70,7 @@ title: Contributor License Agreement
             </p>
         </li>
         <li>
+	  <p>
             Grant of Copyright License. Subject to the terms and conditions of this Agreement, You hereby grant to Open
             Whisper Systems and to recipients of software distributed by Open Whisper Systems a perpetual, worldwide,
             non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works
@@ -74,8 +78,10 @@ title: Contributor License Agreement
             as the right to sublicense and have sublicensed all of the foregoing rights, through multiple tiers of
             sublicensees, provided that in all cases, Open Whisper Systems will make Your Contributions available under
             an OSI-approved open source license.
+	  </p>
         </li>
         <li>
+	  <p>
             Grant of Patent License. Subject to the terms and conditions of this Agreement, You hereby grant to Open
             Whisper Systems and to recipients of software distributed by Open Whisper Systems a perpetual, worldwide,
             non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to
@@ -86,38 +92,49 @@ title: Contributor License Agreement
             counterclaim in a lawsuit) alleging that your Contribution, or the Work to which you have contributed,
             constitutes direct or contributory patent infringement, then any patent licenses granted to that entity
             under this Agreement for that Contribution or Work shall terminate as of the date such litigation is filed.
+	  </p>
         </li>
         <li>
+	  <p>
             You represent that you are legally entitled to grant the above license. If your employer(s) has rights to
             intellectual property that you create that includes your Contributions, you represent that you have received
             permission to make Contributions on behalf of that employer, that your employer has waived such rights for
             your contributions to Open Whisper Systems, or that your employer has executed with Open Whisper Systems a
             separate contributor license agreement substantially similar to this Agreement.
+	  </p>
         </li>
         <li>
+	  <p>
             You represent that each of Your Contributions is Your original creation (see section 7 for submissions on
             behalf of others). You represent that Your Contribution submissions include complete details of any
             third-party license or other restriction (including, but not limited to, related patents and trademarks) of
             which you are personally aware and which are associated with any part of Your Contributions.
+	  </p>
         </li>
         <li>
+	  <p>
             You are not expected to provide support for Your Contributions, except to the extent You desire to provide
             support. You may provide support for free, for a fee, or not at all. Unless required by applicable law or
             agreed to in writing, You provide Your Contributions on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS
             OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of
             title, non-infringement, merchantability, or fitness for a particular purpose.
+	  </p>
         </li>
         <li>
+	  <p>
             Should You wish to submit work that is not Your original creation, You may submit it to Open Whisper Systems
             separately from any Contribution, identifying the complete details of its source and of any license or other
             restriction (including, but not limited to, related patents, trademarks, and license agreements) of which
             you are personally aware, and conspicuously marking the work as “Not a Contribution”. Third-party materials
             licensed pursuant to: [license name(s) here]” (substituting the bracketed text with the appropriate license
             name(s)).
+	  </p>
         </li>
         <li>
+	  <p>
             You agree to notify Open Whisper Systems of any facts or circumstances of which you become aware that would
             make these representations inaccurate in any respect.
+	  </p>
         </li>
     </ol>
 
@@ -445,46 +462,61 @@ title: Contributor License Agreement
             </div>
         </form>
     </div>
-    <script>
-        $('#user_form').on('submit', function() {
-            var params = $(this).serializeArray();
-            var data = {};
-            for (var i = 0; i < params.length; i++) {
-                var param = params[i];
-                data[param["name"]] = param["value"] ? param["value"] : "";
-            }
-            var redirectUrl = getQueryVariable("redirect_url");
-            var url = "https://open-whisper-cla.appspot.com/cla-server/form";
-            if (redirectUrl) url = url + "?redirect_url=" + redirectUrl;
-            var locked = false;
-            if (!locked) {
-                $('#loading').show();
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: JSON.stringify(data),
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    'dataType': 'json',
-                    success: function(html) {
-                        locked = true;
-                        if (html.status == 'ERROR') {
-                            $('#loading').hide();
-                            var fields = html.errorFields;
-                            $('.error-msg').hide();
-                            for (var i = 0; i < fields.length; i++) {
-                                $('#error_' + fields[i]).show();
-                            }
-                            $('#error-container').show();
-                        } else {
-                            window.location = html.authorizeUrl;
-                        }
-                    }
-                });
-            }
-            return false;
-        });
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <script type="text/javascript">
+      runScript();
+
+      function runScript() {
+        if( window.$ ) {
+          $('#user_form').on('submit', function() {
+              var params = $(this).serializeArray();
+              var data = {};
+              for (var i = 0; i < params.length; i++) {
+                  var param = params[i];
+                  data[param["name"]] = param["value"] ? param["value"] : "";
+              }
+              var redirectUrl = getQueryVariable("redirect_url");
+              var url = "https://open-whisper-cla.appspot.com/cla-server/form";
+              if (redirectUrl) url = url + "?redirect_url=" + redirectUrl;
+              var locked = false;
+              if (!locked) {
+                  $('#loading').show();
+                  $.ajax({
+                      type: "POST",
+                      url: url,
+                      data: JSON.stringify(data),
+                      headers: {
+                          'Content-Type': 'application/json'
+                      },
+                      'dataType': 'json',
+                      success: function(html) {
+                          locked = true;
+                          if (html.status == 'ERROR') {
+                              $('#loading').hide();
+                              var fields = html.errorFields;
+                              $('.error-msg').hide();
+                              for (var i = 0; i < fields.length; i++) {
+                                  $('#error_' + fields[i]).show();
+                              }
+                              $('#error-container').show();
+                          } else {
+                              window.location = html.authorizeUrl;
+                          }
+                      }
+                  });
+              }
+              return false;
+          });
+          } else {
+            window.setTimeout( runScript, 50 );
+          }
+        }
 
         function getQueryVariable(variable) {
             var query = window.location.search.substring(1);
