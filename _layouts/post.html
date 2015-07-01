@@ -18,7 +18,7 @@ is_post: true
 	  <a href="https://github.com/{{ page.author }}">{{ page.author }}</a> on {{ page.date || date_to_string }}
 	</h3>
       </div>
-
+    </div>
 
 
 
@@ -31,17 +31,22 @@ is_post: true
 {{ parts[1] }}
 {% endif %}
 
-<div class="social-sharing">
-    <a href="https://twitter.com/intent/tweet?text={{ title_parts[1] }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</a>
-    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a> 
-    <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}&t={{ title_parts[1] }}" rel="nofollow" title="Share on Hacker News" target="_blank" class="btn btn-hn"><i class="fa fa-hacker-news"></i> Hacker News</a>
-</div>
-
-
+	  <div class="social-sharing">
+	    <a href="https://twitter.com/intent/tweet?text={{ title_parts[1] }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Tweet</a>
+	    <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a> 
+	    <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}&t={{ title_parts[1] }}" rel="nofollow" title="Share on Hacker News" target="_blank" class="btn btn-hn"><i class="fa fa-hacker-news"></i> Hacker News</a>
+	  </div>
 	</div>
       </div>
-    </div>
 
+      <div class="row row-centered">
+	<div class="col-md-3"></div>
+	<div class="col-md-6">
+	  <h3>Want to get involved with Open Whisper Systems? <a href="/workworkwork/">We're hiring!</a></h3>
+	</div>
+	<div class="col-md-3"></div>
+      </div>
+    
 <!-- Final scripts after vital HTML elements in post -->
   </article>
 </section>
