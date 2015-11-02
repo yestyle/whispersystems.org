@@ -12,7 +12,7 @@ author: moxie0
 </a>
 
 Today we've started rolling out [Signal for Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms),
-which unites simple private messaing and simple private calling into a single app on Android.
+which unites simple private messaging and simple private calling into a single app on Android.
 This is the culmination of our effort to combine TextSecure and RedPhone into one app, which
 we [began on iPhone](/blog/the-new-signal/) and are now bringing to completion on Android.
 
