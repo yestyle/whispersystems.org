@@ -4,7 +4,7 @@ layout: post
 author: moxie0
 ---
 
-<img src="/blog/images/signal-desktop-placed.png" alt="Signal Desktop"/>
+<img src="/blog/images/signal-desktop-fred.jpg" alt="Signal Desktop"/>
 
 <button type="button" class="btn btn-info install">
   <a href="#" class="prefinery-form-cta" style="color: white;">Join the beta</a>
