@@ -51,8 +51,3 @@ no advertisements, and it doesn't cost anything to use.
 <button type="button" class="btn btn-info install">
   <a href="#" class="prefinery-form-cta" style="color: white;">Join the beta today!</a>
 </button>
-
-
-<script type="text/javascript">
-var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://openwhispersystems.prefinery.com/widget/v2/zjjk5j7a.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();
-</script>
