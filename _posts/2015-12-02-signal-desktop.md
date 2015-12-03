@@ -6,9 +6,9 @@ author: moxie0
 
 <img src="/blog/images/signal-desktop-fred.jpg" alt="Signal Desktop"/>
 
-<button type="button" class="btn btn-info install">
-  <a href="#" class="prefinery-form-cta" style="color: white;">Join the beta</a>
-</button>
+<a href="#" class="prefinery-form-cta" style="color: white;">
+  <button type="button" class="btn btn-info install">Join the beta</button>
+</a>
 
 Today we're making the Signal Desktop beta available. Signal Desktop brings the
 trusted private messaging experience of Signal to the desktop, with a simplicity
@@ -48,10 +48,9 @@ Like everything we do at Open Whisper Systems, dedicated development is supporte
 [community donations](https://freedom.press/bundle/encryption-tools-journalists) and grants. Signal Desktop contains
 no advertisements, and it doesn't cost anything to use.
 
-<button type="button" class="btn btn-info install">
-  <a href="#" class="prefinery-form-cta" style="color: white;">Join the beta today!</a>
-</button>
-
+<a href="#" class="prefinery-form-cta" style="color: white;">
+  <button type="button" class="btn btn-info install">Join the beta today!</button>
+</a>
 
 <script type="text/javascript">
 var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://openwhispersystems.prefinery.com/widget/v2/zjjk5j7a.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();
