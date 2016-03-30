@@ -2,6 +2,9 @@ url: https://whispersystems.org
 safe: false
 auto: true
 pygments: true
+markdown: redcarpet
+kramdown:
+  input: GFM
 assets:
   js_compressor:  uglifier
   css_compressor: sass

@@ -8,7 +8,7 @@ author: moxie0
 
 <a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms">
   <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+       src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" width="199"/>
 </a>
 
 Today we've started rolling out [Signal for Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms),
