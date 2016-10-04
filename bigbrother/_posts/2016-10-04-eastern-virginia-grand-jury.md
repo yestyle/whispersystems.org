@@ -33,7 +33,9 @@ XXXXX
        <h1>The Subpoena</h1>
   </div>
   <div class="col-md-8">
-    <embed src="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena.pdf" type="application/pdf" width="100%" height="800px">  
+    <object data="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena.pdf" type="application/pdf" width="100%" height="800px">
+      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena.pdf">Download PDF</a>.</p>
+    </object>
   </div>
 </div>
 
@@ -44,7 +46,9 @@ XXXXX
        <h2>Our Response</h2>
   </div>
   <div class="col-md-8">
-    <embed src="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-response.pdf" type="application/pdf" width="100%" height="800px">  
+    <object data="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-response.pdf" type="application/pdf" width="100%" height="800px">
+      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-response.pdf">Download PDF</a>.</p>
+    </object>  
   </div>
 
 </div>
@@ -56,7 +60,9 @@ XXXXX
        <h2>Our Petition To Remove The Gag Order</h2>
   </div>
   <div class="col-md-8">
-    <embed src="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-petition.pdf" type="application/pdf" width="100%" height="800px">  
+    <object data="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-petition.pdf" type="application/pdf" width="100%" height="800px">
+      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-petition.pdf">Download PDF</a>.</p>
+    </object>    
   </div>
 
 </div>
@@ -68,7 +74,9 @@ XXXXX
        <h2>The Government's Response To Our Petition</h2>
   </div>
   <div class="col-md-8">
-    <embed src="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-updated-order.pdf" type="application/pdf" width="100%" height="800px">  
+    <object data="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-updated-order.pdf" type="application/pdf" width="100%" height="800px">
+      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/bigbrother/documents/2016-10-04-eastern-virginia-subpoena-updated-order.pdf">Download PDF</a>.</p>
+    </object>      
   </div>
 
 </div>
