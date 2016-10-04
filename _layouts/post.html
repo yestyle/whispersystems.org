@@ -8,14 +8,21 @@ is_post: true
     <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+	{% if page.categories contains "blog" %}
 	<img class="author img-responsive img-circle" src="https://avatars.githubusercontent.com/{{ page.author }}"/>
+	{% elsif page.categories contains "bigbrother" %}
+	<img class="author img-responsive img-circle" src="{% asset_path bigbrother/surveillance.svg %}"/>
+	{% endif %}
+	
 	{% assign title_parts = page.title | split: ' >> ' %}
 	<h2 class="post-title">
 	  {{ title_parts[1] }}
 	</h2>
 	<h3 class="post-subtitle">
-	  {% if page.guest == true %}A guest post by {% endif %}
-	  <a href="https://github.com/{{ page.author }}">{{ page.author }}</a> on {{ page.date || date_to_string }}
+	  {% if page.categories contains "blog" %}
+ 	  {% if page.guest == true %}A guest post by {% endif %}
+	  <a href="https://github.com/{{ page.author }}">{{ page.author }}</a> on {% endif %}{{ page.date || date_to_string }}
 	</h3>
       </div>
     </div>

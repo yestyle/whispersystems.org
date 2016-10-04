@@ -14,7 +14,7 @@ active: blog
 <!--    </div> -->
     <div class="posts">
 
-    {% for post in site.posts %}
+    {% for post in  site.categories.blog %}
     {% assign title_parts = post.title | split: ' >> ' %}
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

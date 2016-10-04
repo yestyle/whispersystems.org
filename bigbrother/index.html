@@ -1,0 +1,79 @@
+---
+layout: root
+title: Government Communication
+---
+
+<!--
+<section id="bigbrother" class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+	<img src="{% asset_path bigbrother/theman-header.svg %}" width="180px"/>
+      </div>
+
+      <div class="cod-md-5">
+	<h2>Government Requests</h2>
+	<p>When legally forced to provide information to government or law enforcement agenices, we'll disclose the transcripts of that communication here.</p>
+      </div>
+
+      <div class="col-md-2"></div>
+    </div>
+
+  </div>
+</section>
+-->
+
+<div class="container">
+  <div class="row" style="padding-top: 100px; padding-bottom: 30px; padding-left: 30px; padding-right: 30px;">
+      <div class="col-lg-3 col-lg-offset-2 col-md-2 col-md-offset-1">    
+	<img src="{% asset_path bigbrother/theman-header.svg %}" width="180px" class="center-block"/>
+      </div>
+      
+      <div class="col-lg-5 col-md-6">
+	<h1 class="text-center">Government Requests</h1>
+	<p>When legally forced to provide information to government or law enforcement agenices, we'll disclose
+	  the transcripts of that communication here.</p>
+      </div>
+    </div>
+</div>
+
+<section id="blog" class="bg-light-gray" style="padding-top: 0px;">
+  <div class="container">
+    <div class="posts">
+
+    {% for post in  site.categories.bigbrother %}
+    {% assign title_parts = post.title | split: ' >> ' %}
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<div class="panel panel-default">
+	  <img class="author img-responsive img-circle" src="{% asset_path bigbrother/surveillance.svg %}"/>	  
+	  <div class="panel-body">
+            <div class="post-preview">
+	      <h2 class="post-title">
+		<a href="{{ post.url }}">{{ title_parts[1] }}</a>
+	      </h2>
+	      <h3 class="post-subtitle">
+		{{ post.date || date_to_string }}
+	      </h3>
+	      <p>
+		{% assign parts = post.content | split: 'XXXXX' %}
+		{{ parts.first }}
+		{% if parts[1] %}
+		<a href="{{ post.url }}"><em>Read more...</em></a>
+		{% endif %}	    
+	      </p>
+            </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+    
+{% endfor %}
+  </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://openwhispersystems.prefinery.com/widget/v2/zjjk5j7a.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();
+</script>
