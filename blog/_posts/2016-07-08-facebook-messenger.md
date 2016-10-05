@@ -19,7 +19,7 @@ communication simple.  To amplify the impact and scope of private communication,
 with other popular messaging apps like [WhatsApp](/blog/whatsapp-complete/), [Google Allo](/blog/allo),
 and now Facebook Messenger to help integrate Signal Protocol into those products.
 
-For more detail, Facebook has [published a document](https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper.pdf) with technical details of their Signal Protocol
+For more detail, Facebook has [published a document](https://fbnewsroomus.files.wordpress.com/2016/07/secret_conversations_whitepaper-1.pdf) with technical details of their Signal Protocol
 deployment.  They use our open source [Signal Protocol libraries](https://github.com/whispersystems/),
 and we've verified that the integration was done appropriately.  While this release does not enable end
 to end encryption for all conversations by default, like you'd find in WhatsApp or Signal, it's still a
