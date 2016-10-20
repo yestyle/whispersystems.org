@@ -1022,7 +1022,69 @@ section#post {
   margin-bottom: 20px;
 }
 
-#blog img, #post img, #blog .install, #post .install {
+section#specification {
+  padding-top: 150px;
+}
+
+#specification p, #specification ul, #specification td {
+  font-size: 16px;	     
+}
+
+#specification h1.post-title {
+  text-transform: none;
+}
+
+#specification h1 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#specification tr.odd {
+  background-color: #eee;
+}
+
+#specification table {
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+#specification .code {
+    font-family: monospace;
+    background: #eee;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#specification .code p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#specification td, #specification th {
+    padding: 10px;
+}
+
+#specification h3.post-subtitle {
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: none;
+  font-size: 1.5em;
+  color: #333;
+  margin-top: -18px;
+}
+
+#specification h3.post-subtitle a {
+  text-decoration: inherit;
+/*  color: inherit;*/
+}
+
+#docs img.hero {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#blog img, #post img, #specification img, #blog .install, #post .install {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -1114,6 +1176,16 @@ h2.post-title {
   margin-top: 50px;
 }
 
+#docs h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #666;
+}
+
+#docs a {
+  color: #222;
+}
+
 /* jobs  */
 
 .video-container {
@@ -1155,4 +1227,20 @@ h2.post-title {
 
 #positions i {
   font-size: 30px;
+}
+
+
+/* centering */
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }

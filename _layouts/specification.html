@@ -1,0 +1,49 @@
+---
+layout: root
+is_specification: true
+---
+
+<section id="specification">
+  <article>
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+	<img class="author img-responsive img-circle" src="{% asset_path body/spaceship.png %}"/>
+	
+	{% assign title_parts = page.title | split: ' >> ' %}
+	<h1 class="post-title">
+	  {{ title_parts[1] }}
+	</h1>
+	
+	<h3 class="post-subtitle">
+	  <p>Revision {{ page.revision }}, {{ page.date }} [<a href="{{ page.pdf_name }}">PDF</a>]</p>
+	  <p>{{ page.author_full }}</p>
+	</h3>
+      </div>
+    </div>
+
+
+
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+{% assign parts = content | split: 'XXXXX' %}
+{{ parts.first }}
+{% if parts[1] %}
+{{ parts[1] }}
+{% endif %}
+
+	</div>
+      </div>
+
+      <div class="row row-centered">
+	<div class="col-md-3"></div>
+	<div class="col-md-6">
+	  <h3>Want to get involved with Open Whisper Systems? <a href="/workworkwork/">We're hiring!</a></h3>
+	</div>
+	<div class="col-md-3"></div>
+      </div>
+    
+<!-- Final scripts after vital HTML elements in post -->
+  </article>
+</section>

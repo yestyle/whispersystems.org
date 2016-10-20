@@ -56,7 +56,7 @@
                         <a class="page-scroll" href="/blog/">Blog</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://open-whisper-systems.readme.io/">Developers</a>
+                        <a class="page-scroll" href="/docs/">Developers</a>
                     </li>
 
 		    <li class="dropdown">
@@ -83,8 +83,10 @@
    <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Open Whisper Systems 2015</span>
+              <div class="col-md-4">
+		{% if page.is_specification != true %}		
+                <span class="copyright">Copyright &copy; Open Whisper Systems 2013-2016</span>
+		{% endif %}		
                 </div>
 		<div class="col-md-4">
 		  <span class="copyright"><a href="/workworkwork/">Jobs</a></span>
