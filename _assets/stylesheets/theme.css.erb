@@ -1032,6 +1032,7 @@ section#specification {
 
 #specification h1.post-title {
   text-transform: none;
+  text-align:center;
 }
 
 #specification h1 {
@@ -1077,6 +1078,20 @@ section#specification {
 #specification h3.post-subtitle a {
   text-decoration: inherit;
 /*  color: inherit;*/
+}
+
+#specification .figure {
+    counter-increment: figure;
+}
+
+#specification .caption:before {
+    content: "Figure " counter(figure) ": ";
+}
+
+#specification .caption {
+    font-size: 14px;
+    text-align: center;
+    color: #555;
 }
 
 #docs img.hero {

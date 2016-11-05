@@ -17,7 +17,8 @@ is_specification: true
 	
 	<h3 class="post-subtitle">
 	  <p>Revision {{ page.revision }}, {{ page.date }} [<a href="{{ page.pdf_name }}">PDF</a>]</p>
-	  <p>{{ page.author_full }}</p>
+          {% assign authors = page.author_full | split: ',' | join: ',' %}	  
+	  <p>{{ authors }}</p>
 	</h3>
       </div>
     </div>
