@@ -138,7 +138,7 @@ Update 11/19:
 </p>
 <p>
 Steve Thomas pointed out that one caveat remains: if you have previously published an old-style Signal fingerprint
-or QR code and you now publish a new-style Signal safety number or QR code for the same identity key (ie. without having
+or QR code and you now publish a new-style Signal safety number or QR code for the same identity key (i.e. without having
 reinstalled Signal), your phone number could still be discovered by a brute-force search.  The safety number is
 a hash that contains both a public key as well as a phone number, to help strengthen the relatively short safety
 number against cryptanalytic attacks using precalculated values, and to help strengthen the process against
