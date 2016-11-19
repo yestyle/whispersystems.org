@@ -132,8 +132,32 @@ the safety numbers themselves. Of course, if you publish a safety number for you
 a third party who also knows Alice's fingerprint might recognize you are talking with her, but no other information
 is leaked.
 
-This means that we can no longer detect when a user is accidentally scanning the wrong QR code, but we felt
-that it is more important for users to be comfortable sharing these without fear of making a mistake. 
+<div style="background-color: #f5f5f5; border: 1px solid #ccc; padding: 10px;">
+<p>
+Update 11/19:
+</p>
+<p>
+Steve Thomas pointed out that one caveat remains: if you have previously published an old-style Signal fingerprint
+or QR code and you now publish a new-style Signal safety number or QR code for the same identity key (ie. without having
+reinstalled Signal), your phone number could still be discovered by a brute-force search.  The safety number is
+a hash that contains both a public key as well as a phone number, to help strengthen the relatively short safety
+number against cryptanalytic attacks using precalculated values, and to help strengthen the process against
+"unknown key share" attacks.
+</p>
+<p>
+Someone with knowledge of a user's public key and safety number could successively attempt to hash every possible
+phone number with the public key until they find an output that matches the published safety number.  This does not
+effect Signal's current design, since you'd have to know the phone number to obtain the public
+key to begin with, but is a consideration for users who have previously published their public key for their current
+install of Signal.
+</p>
+<p>
+In the long term, we think this construction is the best approach for providing short yet secure values, however in
+the short term it does require existing users who have previously published old-style Signal fingerprints to exercise
+some additional awareness.
+</p>
+</div>
+
 
 ## Support for advisory safety number updates
 
