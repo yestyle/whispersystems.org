@@ -1,0 +1,68 @@
+---
+layout: root
+title: Unregister
+---
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+{% javascript vendor/libphonenumber_api-compiled.js %}
+{% javascript TextSecure-Server %}
+{% javascript unregister %}
+
+<section id="unregister">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Unregister From Signal</h2>
+        <h3 class="section-subheading text-muted">We're sorry to see you go!</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+	<p>
+          Use this form if you've recently uninstalled Signal and can no
+          longer receive messages from other Signal users.
+	</p>
+	<p>
+          You will need to verify your number by receiving a call or SMS.
+	</p>	
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
+	<div id="step1">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your phone number" id="number">
+          </div>
+	  <div class="form-group">
+            <select id="regionCode">
+	      <option value="ZZ" selected>Country</option>
+            </select>
+	  </div>
+	  <div class="form-group">
+            <button id="request-voice" disabled='disabled'>Call</button>
+            <button id="request-sms" disabled='disabled' tabindex=3>Send SMS</button>
+	  </div>
+	</div>
+	<div id="step2" class='hidden'>
+          <form>
+            <div class="form-group">
+	      <input id="code" type="text" placeholder="Verification code" pattern="[0-9]{3}-?[0-9]{3}"
+		     title="Enter your 6-digit verification code. If you did not receive a code, click 'Call' or 'Send SMS' to request a new one.">
+            </div>
+	    <div class="form-group">
+	      <input type='submit' id="verify-code" value='Unregister'>
+	    </div>
+          </form>
+	</div>
+	<div id='error' class='hidden'>
+	</div>
+	  
+	<div id='success' class='hidden'>
+          ✓ You unregistered from Signal 
+	</div>
+
+      </div>
+    </div>
+  </div>
+</section>
