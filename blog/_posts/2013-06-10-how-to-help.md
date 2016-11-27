@@ -5,7 +5,7 @@ author: moxie0
 ---
 
 Open Whisper Systems is a project focused on developing Open Source security and privacy apps for the
-mobile environment.  With all of the recent discussion about [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program%29), 
+mobile environment.  With all of the recent discussion about [PRISM](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)), 
 [Boundless Informant](https://en.wikipedia.org/wiki/Boundless_Informant), and 
 [FISA orders](http://www.guardian.co.uk/world/interactive/2013/jun/06/verizon-telephone-data-court-order),
 there has been a surge of new users and inquiries about how to get involved.
